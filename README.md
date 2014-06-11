@@ -1,2 +1,2 @@
-zeusminer_web_controler
+zeusminer_web_controller
 =======================
