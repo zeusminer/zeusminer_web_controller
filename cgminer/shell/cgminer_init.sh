@@ -33,7 +33,7 @@ service_start()
     fi
 
     # start cgminer
-    nohup ./bin/cgminer --config conf/cgminer_${DEV_PORT}.conf >> log/cgminer_${DEV_PORT}.log &
+    sudo nohup ./bin/cgminer --config conf/cgminer_${DEV_PORT}.conf >> log/cgminer_${DEV_PORT}.log &
 
     sleep 1
     sudo chmod 666 log/cgminer_${DEV_PORT}.log
