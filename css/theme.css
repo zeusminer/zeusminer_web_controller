@@ -1,0 +1,74 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.container .jumbotron{
+  background-color:#fff;
+  border-radius: 0; 
+  border: 1px solid #ddd;
+  border-top: none
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.chips-count{
+	display: inline-block;
+	width: 100px;
+	vertical-align: -5px;
+	margin-left: 10px
+}
+
+.jumbotron .intro_title{
+    font-size: 38px;
+}
+
+.miner-port{
+  display: inline-block;
+  width: 150px;
+}
+
+.miner-port-refresh{
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.output-log{
+  height: 550px;
+  padding: 10px;
+  overflow-y:scroll;
+  border-radius: 6px;
+  border: 2px #eee solid;
+  color: #666
+}
+
+.bs-docs-footer{
+    margin-top: 50px;
+}
+
+.bottom_logo{
+    margin-top: 6px;
+}
+
+.setting-form,.log-output{display: none}
+.setting-form-current,.log-output-current{display: block;}
+
+.log-output-container{
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+.log-output{
+    height: 380px;
+    padding: 10px;
+    overflow-y:scroll;
+    color: #666
+}

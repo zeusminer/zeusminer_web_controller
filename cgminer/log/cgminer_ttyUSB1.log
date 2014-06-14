@@ -1,0 +1,780 @@
+ [2014-06-09 22:35:56] Started cgminer 3.1.1                    
+ [2014-06-09 22:35:56] Loaded configuration file conf/cgminer_ttyUSB1.conf                    
+ [2014-06-09 22:36:00] [Speed] 328Mhz core|chip|board: [27.9K/s], [223K/s], [42.9M/s], readcount:281,bitnum:8                     
+ [2014-06-09 22:36:00] Probing for an alive pool                    
+ [2014-06-09 22:36:00] Network diff set to 705M                    
+ [2014-06-09 22:36:00] Stratum from pool 0 detected new block                    
+ [2014-06-09 22:36:01] Icarus 0 nounce2 = 01000000 readcount = 281 try sent: da25011900000000                    
+ [2014-06-09 22:36:01] Accepted 92d5ac5b Diff 41.6K/233 ICA 0                     
+ [2014-06-09 22:36:03] Accepted 8980236f Diff 490/233 ICA 0                     
+ [2014-06-09 22:36:03] Accepted c2f8fd10 Diff 372/233 ICA 0                     
+ [2014-06-09 22:36:04] Accepted 2fb71ee3 Diff 3.6K/233 ICA 0                     
+ [2014-06-09 22:36:04] Accepted d71f3661 Diff 452/233 ICA 0                     
+ [2014-06-09 22:36:05] Accepted 0a33772f Diff 445/233 ICA 0                     
+ [2014-06-09 22:36:06] Accepted 8a0738e6 Diff 415/233 ICA 0                     
+(5s):0.000 (avg):0.000h/s | A:7  R:0  HW:0  U:69.8/m  WU:16256.6/m          
+ [2014-06-09 22:36:11] Accepted 9e241396 Diff 242/233 ICA 0                     
+ [2014-06-09 22:36:11] Accepted 51bafb15 Diff 687/233 ICA 0                     
+ [2014-06-09 22:36:12] Accepted 3972c679 Diff 653/233 ICA 0                     
+ [2014-06-09 22:36:12] Accepted e16f91b3 Diff 233/233 ICA 0                     
+ [2014-06-09 22:36:12] Accepted 491e9b07 Diff 1.21K/233 ICA 0                     
+ [2014-06-09 22:36:13] Accepted 7cc3f876 Diff 14.6K/233 ICA 0                     
+(5s):0.000 (avg):0.000h/s | A:13  R:0  HW:0  U:64.9/m  WU:15118.4/m          
+ [2014-06-09 22:36:13] Accepted b543e0df Diff 298/233 ICA 0                     
+ [2014-06-09 22:36:14] Accepted cefbd4fd Diff 575/233 ICA 0                     
+ [2014-06-09 22:36:15] Accepted 06bf8630 Diff 250/233 ICA 0                     
+ [2014-06-09 22:36:16] Accepted 94229f6f Diff 567/233 ICA 0                     
+ [2014-06-09 22:36:17] Accepted d2fe4098 Diff 250/233 ICA 0                     
+ [2014-06-09 22:36:18] Accepted bbf5bb47 Diff 3.92K/233 ICA 0                     
+(5s):0.000 (avg):0.000h/s | A:19  R:0  HW:0  U:63.3/m  WU:15514.1/m          
+ [2014-06-09 22:36:19] Stratum from pool 0 requested work restart                    
+ [2014-06-09 22:36:19] 1restart or 2timeout:1                     
+ [2014-06-09 22:36:19] Icarus 0 nounce2 = 09000000 readcount = 281 try sent: da25015500000000                    
+ [2014-06-09 22:36:19] Accepted 70eea5a7 Diff 593/233 ICA 0                     
+ [2014-06-09 22:36:19] Accepted d021746d Diff 486/233 ICA 0                     
+ [2014-06-09 22:36:19] Accepted ed54d2da Diff 368/233 ICA 0                     
+ [2014-06-09 22:36:21] Accepted 81873319 Diff 325/143 ICA 0                     
+ [2014-06-09 22:36:21] Accepted a52c2909 Diff 459/143 ICA 0                     
+ [2014-06-09 22:36:21] Accepted e40ff68a Diff 721/143 ICA 0                     
+ [2014-06-09 22:36:22] Accepted 69fd9c34 Diff 198/143 ICA 0                     
+ [2014-06-09 22:36:23] Accepted f416935b Diff 206/143 ICA 0                     
+ [2014-06-09 22:36:23] Accepted b2c6b17a Diff 953/143 ICA 0                     
+ [2014-06-09 22:36:23] Accepted 039b47fa Diff 229/143 ICA 0                     
+ [2014-06-09 22:36:23] Accepted c8401387 Diff 2.75K/143 ICA 0                     
+ [2014-06-09 22:36:25] Accepted 3f33fbe3 Diff 285/143 ICA 0                     
+ [2014-06-09 22:36:25] Accepted 8ec1e6ad Diff 353/143 ICA 0                     
+(5s):83.58M (avg):32.99Mh/s | A:32  R:0  HW:0  U:79.9/m  WU:16374.0/m          
+ [2014-06-09 22:36:26] Accepted 48133857 Diff 243/143 ICA 0                     
+ [2014-06-09 22:36:26] Accepted f825ddd8 Diff 736/143 ICA 0                     
+ [2014-06-09 22:36:26] Accepted 79d5154a Diff 196/143 ICA 0                     
+ [2014-06-09 22:36:29] Accepted 7d7a6e19 Diff 514/143 ICA 0                     
+ [2014-06-09 22:36:30] Accepted b0de7826 Diff 281/143 ICA 0                     
+(5s):30.68M (avg):26.39Mh/s | A:37  R:0  HW:0  U:73.9/m  WU:15387.2/m          
+ [2014-06-09 22:36:31] Accepted d29e63d5 Diff 607/143 ICA 0                     
+ [2014-06-09 22:36:31] Accepted 8ae5527d Diff 274/143 ICA 0                     
+ [2014-06-09 22:36:32] Accepted c1927977 Diff 237/143 ICA 0                     
+ [2014-06-09 22:36:36] Accepted c26c7caf Diff 1.11K/143 ICA 0                     
+ [2014-06-09 22:36:36] Accepted ca79d65e Diff 1.5K/143 ICA 0                     
+(5s):11.26M (avg):22.00Mh/s | A:42  R:0  HW:0  U:69.9/m  WU:13300.3/m          
+ [2014-06-09 22:36:37] Accepted 2e91d802 Diff 316/143 ICA 0                     
+ [2014-06-09 22:36:38] Accepted d33616e1 Diff 288/143 ICA 0                     
+ [2014-06-09 22:36:39] Accepted caf436de Diff 195/143 ICA 0                     
+ [2014-06-09 22:36:40] Accepted 4ebd2a14 Diff 267/143 ICA 0                     
+ [2014-06-09 22:36:41] Accepted 0a242c31 Diff 374/143 ICA 0                     
+ [2014-06-09 22:36:41] ICA0: invalid nonce - HW error                    
+ [2014-06-09 22:36:41] ERR nonce:630a055a                     
+ [2014-06-09 22:36:42] Accepted 500f930b Diff 796/143 ICA 0                     
+ [2014-06-09 22:36:42] Accepted 04e98123 Diff 555/143 ICA 0                     
+ [2014-06-09 22:36:42] Accepted 395c7562 Diff 667/143 ICA 0                     
+(5s):4.134M (avg):18.86Mh/s | A:50  R:0  HW:1  U:71.4/m  WU:13238.4/m          
+ [2014-06-09 22:36:43] Accepted c12bf49b Diff 459/143 ICA 0                     
+ [2014-06-09 22:36:46] Accepted efe34e85 Diff 346/143 ICA 0                     
+ [2014-06-09 22:36:48] Accepted 9cdd61d2 Diff 552/143 ICA 0                     
+(5s):1.517M (avg):16.50Mh/s | A:53  R:0  HW:1  U:66.2/m  WU:12120.2/m          
+ [2014-06-09 22:36:49] Accepted 322834e2 Diff 2.04K/143 ICA 0                     
+ [2014-06-09 22:36:49] 1restart or 2timeout:2                     
+ [2014-06-09 22:36:49] Icarus 0 nounce2 = 10000000 readcount = 281 try sent: da25015500000000                    
+ [2014-06-09 22:36:49] Accepted 68911903 Diff 447/143 ICA 0                     
+ [2014-06-09 22:36:53] Accepted 3847e211 Diff 298/143 ICA 0                     
+(5s):134.4M (avg):38.17Mh/s | A:56  R:0  HW:1  U:62.2/m  WU:11726.3/m          
+ [2014-06-09 22:36:55] ICA0: invalid nonce - HW error                    
+ [2014-06-09 22:36:55] ERR nonce:2782a3c9                     
+ [2014-06-09 22:36:57] Accepted 6c926d99 Diff 401/143 ICA 0                     
+ [2014-06-09 22:36:57] Accepted 2ba8157a Diff 7.15K/143 ICA 0                     
+ [2014-06-09 22:36:58] Accepted 2eb5eff5 Diff 15.7K/143 ICA 0                     
+ [2014-06-09 22:36:58] Accepted b7109743 Diff 315/143 ICA 0                     
+ [2014-06-09 22:36:58] Accepted 3a91adef Diff 1.48K/143 ICA 0                     
+ [2014-06-09 22:36:58] Accepted 14637d67 Diff 727/143 ICA 0                     
+ [2014-06-09 22:36:59] Accepted 8dae84f5 Diff 244/143 ICA 0                     
+ [2014-06-09 22:37:00] Accepted 22381a85 Diff 838/143 ICA 0                     
+ [2014-06-09 22:37:00] Accepted 385de881 Diff 296/143 ICA 0                     
+ [2014-06-09 22:37:00] Accepted a86a06ab Diff 315/143 ICA 0                     
+(5s):49.35M (avg):34.35Mh/s | A:66  R:0  HW:2  U:66.0/m  WU:11697.4/m          
+ [2014-06-09 22:37:01] Accepted 77ff8cef Diff 2.92K/143 ICA 0                     
+ [2014-06-09 22:37:02] ICA0: invalid nonce - HW error                    
+ [2014-06-09 22:37:02] ERR nonce:8598f46e                     
+ [2014-06-09 22:37:02] Accepted 7f5e089d Diff 320/143 ICA 0                     
+ [2014-06-09 22:37:03] Accepted c30e0e7d Diff 521/143 ICA 0                     
+ [2014-06-09 22:37:04] Accepted cafbb0b6 Diff 236/143 ICA 0                     
+ [2014-06-09 22:37:04] Accepted ce0cfc56 Diff 458/143 ICA 0                     
+ [2014-06-09 22:37:05] Accepted a9b96c58 Diff 968/143 ICA 0                     
+(5s):18.12M (avg):31.23Mh/s | A:72  R:0  HW:3  U:65.4/m  WU:11543.9/m          
+ [2014-06-09 22:37:10] Accepted fd08ea26 Diff 248/143 ICA 0                     
+ [2014-06-09 22:37:10] Accepted e716ef63 Diff 1.68K/143 ICA 0                     
+ [2014-06-09 22:37:11] Accepted 8904f53d Diff 297/143 ICA 0                     
+ [2014-06-09 22:37:11] Accepted d13aea36 Diff 397/143 ICA 0                     
+ [2014-06-09 22:37:12] Accepted 01152904 Diff 550/143 ICA 0                     
+ [2014-06-09 22:37:12] Accepted 151e5eb3 Diff 282/143 ICA 0                     
+(5s):6.650M (avg):28.63Mh/s | A:78  R:0  HW:3  U:65.0/m  WU:11296.8/m          
+ [2014-06-09 22:37:17] Accepted af5a91c2 Diff 465/143 ICA 0                     
+ [2014-06-09 22:37:18] Accepted c9ee3478 Diff 631/143 ICA 0                     
+ [2014-06-09 22:37:18] Accepted 64e3cfe2 Diff 506/143 ICA 0                     
+ [2014-06-09 22:37:19] 1restart or 2timeout:2                     
+(5s):136.4M (avg):42.69Mh/s | A:81  R:0  HW:3  U:62.3/m  WU:10759.1/m          
+ [2014-06-09 22:37:19] Icarus 0 nounce2 = 13000000 readcount = 281 try sent: da25015500000000                    
+ [2014-06-09 22:37:20] Accepted 9aebae75 Diff 347/143 ICA 0                     
+ [2014-06-09 22:37:20] Accepted f14c5691 Diff 422/143 ICA 0                     
+ [2014-06-09 22:37:21] Accepted f7f3f73a Diff 231/143 ICA 0                     
+ [2014-06-09 22:37:24] Accepted 7bfaa689 Diff 375/143 ICA 0                     
+(5s):50.06M (avg):40.04Mh/s | A:85  R:0  HW:3  U:61.3/m  WU:10504.8/m          
+ [2014-06-09 22:37:24] Accepted 0e24820d Diff 500/143 ICA 0                     
+ [2014-06-09 22:37:26] Accepted 4c5dd35e Diff 282/143 ICA 0                     
+ [2014-06-09 22:37:26] Accepted 4efbf2f2 Diff 219/143 ICA 0                     
+ [2014-06-09 22:37:26] Accepted 9ced0fe2 Diff 220/143 ICA 0                     
+ [2014-06-09 22:37:26] ICA0: invalid nonce - HW error                    
+ [2014-06-09 22:37:26] ERR nonce:a3835503                     
+ [2014-06-09 22:37:27] Accepted c6601f2a Diff 440/143 ICA 0                     
+ [2014-06-09 22:37:27] Accepted d7190a83 Diff 305/143 ICA 0                     
+ [2014-06-09 22:37:28] Accepted 14a519fc Diff 1.39K/143 ICA 0                     
+(5s):18.38M (avg):37.34Mh/s | A:92  R:0  HW:4  U:61.9/m  WU:10567.6/m          
+ [2014-06-09 22:37:32] ICA0: invalid nonce - HW error                    
+ [2014-06-09 22:37:32] ERR nonce:f68620c9                     
+ [2014-06-09 22:37:32] Accepted 3f289029 Diff 451/143 ICA 0                     
+ [2014-06-09 22:37:33] Accepted ffc81826 Diff 428/143 ICA 0                     
+ [2014-06-09 22:37:33] Stratum from pool 0 requested work restart                    
+ [2014-06-09 22:37:33] 1restart or 2timeout:1                     
+ [2014-06-09 22:37:33] Icarus 0 nounce2 = 19000000 readcount = 281 try sent: da2500ad00000000                    
+ [2014-06-09 22:37:35] Accepted 170eec11 Diff 357/143 ICA 0                     
+(5s):71.79M (avg):41.47Mh/s | A:95  R:0  HW:5  U:59.9/m  WU:10261.9/m          
+(5s):26.35M (avg):39.01Mh/s | A:95  R:0  HW:5  U:56.3/m  WU:9876.8/m          
+ [2014-06-09 22:37:42] Accepted 4cce5dbb Diff 382/377 ICA 0                     
+ [2014-06-09 22:37:44] Accepted 4846f715 Diff 10.4K/377 ICA 0                     
+ [2014-06-09 22:37:44] Accepted a6c54871 Diff 2.77K/377 ICA 0                     
+ [2014-06-09 22:37:46] Stratum from pool 0 detected new block                    
+ [2014-06-09 22:37:46] 1restart or 2timeout:1                     
+ [2014-06-09 22:37:46] Icarus 0 nounce2 = 01000000 readcount = 281 try sent: da2500ad00000000                    
+ [2014-06-09 22:37:47] Accepted 866bdf7b Diff 3.96K/377 ICA 0                     
+ [2014-06-09 22:37:47] Accepted d2b4030a Diff 23.2K/377 ICA 0                     
+ [2014-06-09 22:37:48] Accepted 7612e8b6 Diff 1.9K/377 ICA 0                     
+(5s):67.17M (avg):41.91Mh/s | A:101  R:0  HW:5  U:56.5/m  WU:10379.0/m          
+ [2014-06-09 22:37:49] Accepted 9d284eba Diff 513/377 ICA 0                     
+ [2014-06-09 22:37:51] ICA0: invalid nonce - HW error                    
+ [2014-06-09 22:37:51] ERR nonce:84021f3e                     
+ [2014-06-09 22:37:51] ICA0: invalid nonce - HW error                    
+ [2014-06-09 22:37:51] ERR nonce:b8822cbf                     
+ [2014-06-09 22:37:53] Accepted d3f0fafc Diff 721/377 ICA 0                     
+(5s):24.66M (avg):39.69Mh/s | A:103  R:0  HW:7  U:54.6/m  WU:10628.1/m          
+ [2014-06-09 22:37:56] Accepted f044c9f8 Diff 520/377 ICA 0                     
+ [2014-06-09 22:37:58] Accepted e83201aa Diff 478/377 ICA 0                     
+ [2014-06-09 22:38:00] Accepted 28ed030c Diff 527/377 ICA 0                     
+(5s):9.051M (avg):37.69Mh/s | A:106  R:0  HW:7  U:53.4/m  WU:10852.1/m          
+ [2014-06-09 22:38:00] Accepted 05b0a41c Diff 474/377 ICA 0                     
+(5s):3.322M (avg):36.14Mh/s | A:107  R:0  HW:7  U:51.6/m  WU:10588.1/m          
+ [2014-06-09 22:38:06] Accepted 2ba0bb9e Diff 540/377 ICA 0                     
+ [2014-06-09 22:38:07] Accepted 9747ebf2 Diff 3.35K/377 ICA 0                     
+ [2014-06-09 22:38:09] Accepted a5eabc43 Diff 4.47K/377 ICA 0                     
+ [2014-06-09 22:38:10] Accepted 4f0ee2c5 Diff 477/377 ICA 0                     
+(5s):1.219M (avg):34.48Mh/s | A:111  R:0  HW:7  U:51.1/m  WU:10620.7/m          
+ [2014-06-09 22:38:11] Accepted 3fdb7825 Diff 759/377 ICA 0                     
+ [2014-06-09 22:38:14] Accepted 6490cf5d Diff 1.03K/377 ICA 0                     
+ [2014-06-09 22:38:15] 1restart or 2timeout:2                     
+ [2014-06-09 22:38:15] Icarus 0 nounce2 = 06000000 readcount = 281 try sent: da2500ad00000000                    
+ [2014-06-09 22:38:16] Accepted 29ec1932 Diff 1.07K/377 ICA 0                     
+(5s):131.3M (avg):42.06Mh/s | A:114  R:0  HW:7  U:50.2/m  WU:10650.9/m          
+ [2014-06-09 22:38:19] Accepted 86edbf5b Diff 592/377 ICA 0                     
+ [2014-06-09 22:38:19] Accepted d4438a9f Diff 637/377 ICA 0                     
+ [2014-06-09 22:38:20] Accepted 94c3db8b Diff 1.84K/377 ICA 0                     
+ [2014-06-09 22:38:22] Accepted 18dd5f6e Diff 569/377 ICA 0                     
+(5s):48.19M (avg):40.28Mh/s | A:118  R:0  HW:7  U:49.8/m  WU:10837.6/m          
+ [2014-06-09 22:38:24] Accepted c6b3c64c Diff 952/377 ICA 0                     
+ [2014-06-09 22:38:26] Accepted baa6a100 Diff 443/377 ICA 0                     
+ [2014-06-09 22:38:28] Accepted f1c28527 Diff 830/377 ICA 0                     
+(5s):17.69M (avg):38.66Mh/s | A:121  R:0  HW:7  U:49.0/m  WU:11009.1/m          
+ [2014-06-09 22:38:30] Accepted f0fd5585 Diff 649/377 ICA 0                     
+ [2014-06-09 22:38:32] Accepted 0d05899d Diff 503/377 ICA 0                     
+ [2014-06-09 22:38:32] Accepted d46886e6 Diff 6.05K/377 ICA 0                     
+ [2014-06-09 22:38:32] Accepted fda128a1 Diff 885/377 ICA 0                     
+ [2014-06-09 22:38:33] Accepted 5ccbf584 Diff 1.33K/377 ICA 0                     
+(5s):6.493M (avg):37.15Mh/s | A:126  R:0  HW:7  U:49.0/m  WU:11167.3/m          
+ [2014-06-09 22:38:36] Accepted 2546125d Diff 1.17K/377 ICA 0                     
+ [2014-06-09 22:38:38] Accepted 958c565b Diff 1.74K/377 ICA 0                     
+ [2014-06-09 22:38:41] Accepted 6171eaa4 Diff 172K/377 ICA 0                     
+(5s):2.383M (avg):35.76Mh/s | A:129  R:0  HW:7  U:48.3/m  WU:11172.6/m          
+ [2014-06-09 22:38:44] 1restart or 2timeout:2                     
+ [2014-06-09 22:38:44] Icarus 0 nounce2 = 09000000 readcount = 281 try sent: da2500ad00000000                    
+ [2014-06-09 22:38:45] Accepted 4c1cc69a Diff 518/377 ICA 0                     
+ [2014-06-09 22:38:45] ICA0: invalid nonce - HW error                    
+ [2014-06-09 22:38:45] ERR nonce:9e806ea9                     
+ [2014-06-09 22:38:46] Accepted fad7609f Diff 516/377 ICA 0                     
+(5s):113.6M (avg):41.70Mh/s | A:131  R:0  HW:8  U:47.0/m  WU:11247.0/m          
+ [2014-06-09 22:38:48] Accepted cc180593 Diff 472/377 ICA 0                     
+ [2014-06-09 22:38:49] Accepted 91debfe4 Diff 391/377 ICA 0                     
+(5s):41.69M (avg):40.26Mh/s | A:133  R:0  HW:8  U:46.0/m  WU:10988.0/m          
+ [2014-06-09 22:38:54] Accepted ecbc0b00 Diff 1.49K/377 ICA 0                     
+ [2014-06-09 22:38:55] Accepted bcb50c4a Diff 602/377 ICA 0                     
+ [2014-06-09 22:38:56] ICA0: invalid nonce - HW error                    
+ [2014-06-09 22:38:56] ERR nonce:e4856dab                     
+ [2014-06-09 22:38:57] Accepted 9e0a4dd4 Diff 25K/377 ICA 0                     
+(5s):15.30M (avg):38.91Mh/s | A:136  R:0  HW:9  U:45.5/m  WU:11124.9/m          
+(5s):5.617M (avg):37.65Mh/s | A:136  R:0  HW:9  U:44.0/m  WU:10886.7/m          
+ [2014-06-09 22:39:08] Accepted b9fdedea Diff 3.92K/377 ICA 0                     
+ [2014-06-09 22:39:10] Accepted 114a95f0 Diff 61.4K/377 ICA 0                     
+ [2014-06-09 22:39:10] Accepted be992e9d Diff 17.5K/377 ICA 0                     
+ [2014-06-09 22:39:11] Accepted eb816618 Diff 1.88K/377 ICA 0                     
+(5s):2.062M (avg):36.47Mh/s | A:140  R:0  HW:9  U:43.9/m  WU:10899.9/m          
+ [2014-06-09 22:39:13] 1restart or 2timeout:2                     
+ [2014-06-09 22:39:13] Icarus 0 nounce2 = 10000000 readcount = 281 try sent: da2500ad00000000                    
+ [2014-06-09 22:39:17] Accepted 7267a064 Diff 1.07K/377 ICA 0                     
+(5s):132.7M (avg):41.70Mh/s | A:141  R:0  HW:9  U:42.9/m  WU:10683.0/m          
+ [2014-06-09 22:39:19] Accepted 5d46fa14 Diff 419/377 ICA 0                     
+ [2014-06-09 22:39:21] Accepted 973d7326 Diff 18.2K/377 ICA 0                     
+ [2014-06-09 22:39:21] Accepted 58cd0311 Diff 717/377 ICA 0                     
+ [2014-06-09 22:39:24] Accepted 58209f41 Diff 858/377 ICA 0                     
+(5s):48.73M (avg):40.47Mh/s | A:145  R:0  HW:9  U:42.8/m  WU:10812.7/m          
+ [2014-06-09 22:39:28] Accepted 0f470c44 Diff 861/377 ICA 0                     
+ [2014-06-09 22:39:29] Accepted b5a92358 Diff 1.27K/377 ICA 0                     
+(5s):17.89M (avg):39.28Mh/s | A:147  R:0  HW:9  U:42.1/m  WU:10710.3/m          
+ [2014-06-09 22:39:33] Accepted 68eda449 Diff 453/377 ICA 0                     
+ [2014-06-09 22:39:33] Accepted ea2c3996 Diff 428/377 ICA 0                     
+ [2014-06-09 22:39:34] ICA0: invalid nonce - HW error                    
+ [2014-06-09 22:39:34] ERR nonce:598946f4                     
+ [2014-06-09 22:39:34] Accepted d7b597c9 Diff 1.08K/377 ICA 0                     
+(5s):6.566M (avg):38.19Mh/s | A:150  R:0  HW:10  U:41.8/m  WU:10936.9/m          
+ [2014-06-09 22:39:36] Accepted fff84408 Diff 744/377 ICA 0                     
+ [2014-06-09 22:39:37] Accepted 5bac3212 Diff 2.93K/377 ICA 0                     
+ [2014-06-09 22:39:38] Accepted ee202753 Diff 649/377 ICA 0                     
+ [2014-06-09 22:39:39] Accepted 5aa82935 Diff 709/377 ICA 0                     
+(5s):2.410M (avg):37.15Mh/s | A:154  R:0  HW:10  U:41.7/m  WU:10947.0/m          
+ [2014-06-09 22:39:43] 1restart or 2timeout:2                     
+ [2014-06-09 22:39:43] Icarus 0 nounce2 = 15000000 readcount = 281 try sent: da2500ad00000000                    
+ [2014-06-09 22:39:48] Accepted 1b71a333 Diff 380/377 ICA 0                     
+ [2014-06-09 22:39:48] Accepted db6e5c0a Diff 3.3K/377 ICA 0                     
+(5s):132.3M (avg):41.65Mh/s | A:156  R:0  HW:10  U:41.1/m  WU:11155.3/m          
+ [2014-06-09 22:39:49] Accepted b63c818d Diff 7.52K/377 ICA 0                     
+ [2014-06-09 22:39:49] Accepted 728e7c0b Diff 1.35K/377 ICA 0                     
+ [2014-06-09 22:39:49] Accepted 0d780f58 Diff 488/377 ICA 0                     
+ [2014-06-09 22:39:52] Accepted c53fa760 Diff 2.2K/377 ICA 0                     
+ [2014-06-09 22:39:54] ICA0: invalid nonce - HW error                    
+ [2014-06-09 22:39:54] ERR nonce:e1050a15                     
+(5s):48.56M (avg):40.58Mh/s | A:160  R:0  HW:11  U:41.1/m  WU:11061.8/m          
+ [2014-06-09 22:39:54] Accepted a48f805c Diff 1.65K/377 ICA 0                     
+ [2014-06-09 22:40:00] Accepted c713e99f Diff 533/377 ICA 0                     
+(5s):17.83M (avg):39.56Mh/s | A:162  R:0  HW:11  U:40.6/m  WU:10973.5/m          
+ [2014-06-09 22:40:06] Accepted 4f0ec1f9 Diff 1.45K/377 ICA 0                     
+(5s):6.544M (avg):38.59Mh/s | A:163  R:0  HW:11  U:39.8/m  WU:10797.4/m          
+(5s):2.402M (avg):37.75Mh/s | A:163  R:0  HW:11  U:39.0/m  WU:10741.8/m          
+ [2014-06-09 22:40:12] 1restart or 2timeout:2                     
+ [2014-06-09 22:40:12] Icarus 0 nounce2 = 1a000000 readcount = 281 try sent: da2500ad00000000                    
+ [2014-06-09 22:40:13] Stratum from pool 0 requested work restart                    
+ [2014-06-09 22:40:13] 1restart or 2timeout:1                     
+ [2014-06-09 22:40:13] Icarus 0 nounce2 = 20000000 readcount = 281 try sent: da25004200000000                    
+ [2014-06-09 22:40:15] Accepted 371e4ab0 Diff 653/377 ICA 0                     
+ [2014-06-09 22:40:15] Accepted 477bc0dc Diff 408/377 ICA 0                     
+ [2014-06-09 22:40:15] Accepted 4bbe4a13 Diff 2.16K/377 ICA 0                     
+ [2014-06-09 22:40:16] Accepted 684e5a6b Diff 1.33K/986 ICA 0                     
+(5s):137.9M (avg):41.93Mh/s | A:167  R:0  HW:11  U:39.0/m  WU:11039.0/m          
+ [2014-06-09 22:40:18] Accepted 33554ef9 Diff 54.6K/986 ICA 0                     
+ [2014-06-09 22:40:18] Accepted df590e2c Diff 1.37K/986 ICA 0                     
+ [2014-06-09 22:40:19] Accepted 172f93a5 Diff 1.07K/986 ICA 0                     
+ [2014-06-09 22:40:19] Accepted 3cbbfe1d Diff 1.19K/986 ICA 0                     
+(5s):50.63M (avg):40.98Mh/s | A:171  R:0  HW:11  U:39.0/m  WU:11461.9/m          
+ [2014-06-09 22:40:25] ICA0: invalid nonce - HW error                    
+ [2014-06-09 22:40:25] ERR nonce:c38539d9                     
+(5s):18.59M (avg):40.06Mh/s | A:171  R:0  HW:12  U:38.1/m  WU:11426.1/m          
+ [2014-06-09 22:40:30] Stratum from pool 0 detected new block                    
+ [2014-06-09 22:40:30] 1restart or 2timeout:1                     
+ [2014-06-09 22:40:30] Icarus 0 nounce2 = 01000000 readcount = 281 try sent: da25004200000000                    
+ [2014-06-09 22:40:34] Accepted 7a1bb8a5 Diff 1.62K/986 ICA 0                     
+(5s):81.32M (avg):41.76Mh/s | A:172  R:0  HW:12  U:37.5/m  WU:11391.9/m          
+(5s):29.85M (avg):40.86Mh/s | A:172  R:0  HW:12  U:36.7/m  WU:11148.6/m          
+ [2014-06-09 22:40:42] Accepted 44e21732 Diff 1.28K/986 ICA 0                     
+ [2014-06-09 22:40:44] Accepted 3fbbd84b Diff 9.04K/986 ICA 0                     
+(5s):10.96M (avg):39.89Mh/s | A:174  R:0  HW:12  U:36.3/m  WU:11294.7/m          
+(5s):4.022M (avg):39.08Mh/s | A:174  R:0  HW:12  U:35.5/m  WU:11064.0/m          
+ [2014-06-09 22:40:55] Accepted 4d1b7a6a Diff 2.31K/986 ICA 0                     
+ [2014-06-09 22:40:58] 1restart or 2timeout:2                     
+ [2014-06-09 22:40:58] Icarus 0 nounce2 = 08000000 readcount = 281 try sent: da25004200000000                    
+ [2014-06-09 22:41:00] Accepted 825aaf25 Diff 5.24K/986 ICA 0                     
+ [2014-06-09 22:41:00] Accepted 852e8eaf Diff 5.69K/986 ICA 0                     
+(5s):130.0M (avg):42.36Mh/s | A:177  R:0  HW:12  U:35.4/m  WU:11434.3/m          
+ [2014-06-09 22:41:03] Accepted 0edb519c Diff 1.36K/986 ICA 0                     
+(5s):47.73M (avg):41.53Mh/s | A:178  R:0  HW:12  U:34.9/m  WU:11402.7/m          
+(5s):17.52M (avg):40.73Mh/s | A:178  R:0  HW:12  U:34.2/m  WU:11183.3/m          
+ [2014-06-09 22:41:15] Accepted 30e0e55a Diff 1.33K/986 ICA 0                     
+ [2014-06-09 22:41:17] Accepted feab3796 Diff 1.21K/986 ICA 0                     
+(5s):6.431M (avg):39.96Mh/s | A:180  R:0  HW:12  U:34.0/m  WU:11344.4/m          
+(5s):2.360M (avg):39.13Mh/s | A:180  R:0  HW:12  U:33.3/m  WU:11109.6/m          
+ [2014-06-09 22:41:26] Accepted 5e995c76 Diff 1.16K/986 ICA 0                     
+ [2014-06-09 22:41:27] 1restart or 2timeout:2                     
+ [2014-06-09 22:41:27] Icarus 0 nounce2 = 0b000000 readcount = 281 try sent: da25004200000000                    
+ [2014-06-09 22:41:30] Accepted 51ac888c Diff 1.3K/986 ICA 0                     
+(5s):126.2M (avg):42.12Mh/s | A:182  R:0  HW:12  U:33.0/m  WU:11258.3/m          
+ [2014-06-09 22:41:34] Accepted 95c7e44c Diff 1.57K/986 ICA 0                     
+(5s):46.34M (avg):41.37Mh/s | A:183  R:0  HW:12  U:32.6/m  WU:11760.3/m          
+ [2014-06-09 22:41:38] Accepted f6733f6a Diff 1.34K/986 ICA 0                     
+ [2014-06-09 22:41:38] Accepted 585487c4 Diff 6.33K/986 ICA 0                     
+ [2014-06-09 22:41:38] Accepted 892e5dc8 Diff 1.35K/986 ICA 0                     
+ [2014-06-09 22:41:43] Accepted 59689d2e Diff 1.25K/986 ICA 0                     
+(5s):17.01M (avg):40.65Mh/s | A:187  R:0  HW:12  U:32.7/m  WU:11727.0/m          
+(5s):6.244M (avg):39.95Mh/s | A:187  R:0  HW:12  U:32.2/m  WU:11525.3/m          
+ [2014-06-09 22:41:53] Accepted d880c884 Diff 1.09K/986 ICA 0                     
+(5s):2.292M (avg):39.27Mh/s | A:188  R:0  HW:12  U:31.8/m  WU:11497.1/m          
+ [2014-06-09 22:41:56] 1restart or 2timeout:2                     
+ [2014-06-09 22:41:56] Icarus 0 nounce2 = 12000000 readcount = 281 try sent: da25004200000000                    
+(5s):129.0M (avg):41.99Mh/s | A:188  R:0  HW:12  U:31.3/m  WU:11305.8/m          
+ [2014-06-09 22:42:02] Accepted 42fa36a0 Diff 1.97K/986 ICA 0                     
+ [2014-06-09 22:42:07] Accepted 69e49b8a Diff 1.05K/986 ICA 0                     
+(5s):47.37M (avg):41.37Mh/s | A:190  R:0  HW:12  U:31.1/m  WU:11462.4/m          
+ [2014-06-09 22:42:11] Accepted 7026c5a5 Diff 2.23K/986 ICA 0                     
+ [2014-06-09 22:42:12] Accepted 13739e2c Diff 1.45K/986 ICA 0                     
+(5s):17.39M (avg):40.70Mh/s | A:192  R:0  HW:12  U:31.0/m  WU:11595.4/m          
+ [2014-06-09 22:42:14] Accepted a2ad0bb2 Diff 1.35K/986 ICA 0                     
+ [2014-06-09 22:42:16] Accepted 563e932e Diff 3.78K/986 ICA 0                     
+ [2014-06-09 22:42:16] Accepted 87dfa995 Diff 1.03K/986 ICA 0                     
+ [2014-06-09 22:42:17] Accepted 7fdd00cb Diff 1.9K/986 ICA 0                     
+(5s):6.382M (avg):40.06Mh/s | A:196  R:0  HW:12  U:31.1/m  WU:12037.1/m          
+ [2014-06-09 22:42:21] Accepted 973e29d2 Diff 2.46K/986 ICA 0                     
+ [2014-06-09 22:42:25] 1restart or 2timeout:2                     
+(5s):140.8M (avg):42.69Mh/s | A:197  R:0  HW:12  U:30.8/m  WU:12168.4/m          
+ [2014-06-09 22:42:25] Icarus 0 nounce2 = 15000000 readcount = 281 try sent: da25004200000000                    
+ [2014-06-09 22:42:25] Accepted bd023753 Diff 3.32K/986 ICA 0                     
+(5s):51.68M (avg):41.99Mh/s | A:198  R:0  HW:12  U:30.4/m  WU:11970.1/m          
+ [2014-06-09 22:42:33] Accepted 77cdff5d Diff 1.51K/986 ICA 0                     
+ [2014-06-09 22:42:34] Accepted b472f722 Diff 2.76K/986 ICA 0                     
+ [2014-06-09 22:42:35] Accepted cc5c863d Diff 2.87K/986 ICA 0                     
+ [2014-06-09 22:42:35] Accepted 815d36e2 Diff 1.66K/986 ICA 0                     
+(5s):18.97M (avg):41.35Mh/s | A:202  R:0  HW:12  U:30.6/m  WU:12386.0/m          
+ [2014-06-09 22:42:41] Accepted 39cf10d8 Diff 5.84K/986 ICA 0                     
+(5s):6.964M (avg):40.83Mh/s | A:203  R:0  HW:12  U:30.4/m  WU:12376.1/m          
+ [2014-06-09 22:42:45] Accepted edbb6a77 Diff 2.19K/986 ICA 0                     
+ [2014-06-09 22:42:47] Accepted a8166d2c Diff 6.15K/986 ICA 0                     
+(5s):2.556M (avg):40.23Mh/s | A:205  R:0  HW:12  U:30.2/m  WU:12484.1/m          
+ [2014-06-09 22:42:52] Accepted 7b6e4a87 Diff 1.02K/986 ICA 0                     
+ [2014-06-09 22:42:53] 1restart or 2timeout:2                     
+(5s):151.5M (avg):42.69Mh/s | A:206  R:0  HW:12  U:30.0/m  WU:12472.1/m          
+ [2014-06-09 22:42:53] Icarus 0 nounce2 = 1a000000 readcount = 281 try sent: da25004200000000                    
+ [2014-06-09 22:42:59] Accepted fcbefd1a Diff 2.34K/986 ICA 0                     
+(5s):55.62M (avg):41.99Mh/s | A:207  R:0  HW:12  U:29.6/m  WU:12408.8/m          
+ [2014-06-09 22:43:02] Accepted 0f349990 Diff 10.8K/986 ICA 0                     
+ [2014-06-09 22:43:05] ICA0: invalid nonce - HW error                    
+ [2014-06-09 22:43:05] ERR nonce:1a053d7f                     
+(5s):20.41M (avg):41.40Mh/s | A:208  R:0  HW:13  U:29.3/m  WU:12511.9/m          
+ [2014-06-09 22:43:07] Accepted 67c710a3 Diff 27.2K/986 ICA 0                     
+ [2014-06-09 22:43:08] Accepted 17939c9b Diff 1.87K/986 ICA 0                     
+(5s):7.494M (avg):40.82Mh/s | A:210  R:0  HW:13  U:29.2/m  WU:12611.9/m          
+ [2014-06-09 22:43:14] Accepted 858ad80d Diff 4.22K/986 ICA 0                     
+(5s):2.751M (avg):40.26Mh/s | A:211  R:0  HW:13  U:28.9/m  WU:12574.2/m          
+ [2014-06-09 22:43:20] Accepted a76efaa9 Diff 1.35K/986 ICA 0                     
+ [2014-06-09 22:43:21] Accepted 6bbcca01 Diff 1.02K/986 ICA 0                     
+ [2014-06-09 22:43:22] 1restart or 2timeout:2                     
+ [2014-06-09 22:43:22] Icarus 0 nounce2 = 1d000000 readcount = 281 try sent: da25004200000000                    
+(5s):131.2M (avg):42.50Mh/s | A:213  R:0  HW:13  U:28.8/m  WU:12670.8/m          
+ [2014-06-09 22:43:30] Accepted 5d7a8ada Diff 48K/986 ICA 0                     
+(5s):48.18M (avg):41.87Mh/s | A:214  R:0  HW:13  U:28.5/m  WU:12613.4/m          
+ [2014-06-09 22:43:32] Accepted 5fde851a Diff 2.48K/986 ICA 0                     
+(5s):17.68M (avg):41.31Mh/s | A:215  R:0  HW:13  U:28.3/m  WU:12577.1/m          
+ [2014-06-09 22:43:39] Shutdown signal received.                    
+ [2014-06-09 22:43:39] 
+Summary of runtime statistics:
+                    
+ [2014-06-09 22:43:39] Started at [2014-06-09 22:36:01]                    
+ [2014-06-09 22:43:39] Pool: stratum+tcp://stratum.f2pool.com:8888                    
+ [2014-06-09 22:43:39] Runtime: 0 hrs : 7 mins : 38 secs                    
+ [2014-06-09 22:43:39] Average hashrate: 41.3 Megahash/s                    
+ [2014-06-09 22:43:39] Solved blocks: 0                    
+ [2014-06-09 22:43:39] Best share difficulty: 172K                    
+ [2014-06-09 22:43:39] Share submissions: 215                    
+ [2014-06-09 22:43:39] Accepted shares: 215                    
+ [2014-06-09 22:43:39] Rejected shares: 0                    
+ [2014-06-09 22:43:39] Accepted difficulty shares: 90646                    
+ [2014-06-09 22:43:39] Rejected difficulty shares: 0                    
+ [2014-06-09 22:43:39] Reject ratio: 0.0%                    
+ [2014-06-09 22:43:39] Hardware errors: 13                    
+ [2014-06-09 22:43:39] Utility (accepted shares / min): 28.29/min                    
+ [2014-06-09 22:43:39] Work Utility (diff1 shares solved / min): 12577.15/min
+                    
+ [2014-06-09 22:43:39] Stale submissions discarded due to new blocks: 0                    
+ [2014-06-09 22:43:39] Unable to get work from server occasions: 0                    
+ [2014-06-09 22:43:39] Work items generated locally: 103                    
+ [2014-06-09 22:43:39] Submitting work remotely delay occasions: 0                    
+ [2014-06-09 22:43:39] New blocks detected on network: 3
+                    
+ [2014-06-09 22:43:39] Summary of per device statistics:
+                    
+ [2014-06-09 22:43:39] ICA0                | (5s):42.53M (avg):41.31Mh/s | A:215 R:0 HW:13 U:0.0/m                    
+ [2014-06-09 22:43:39]                      
+ [2014-06-09 22:44:06] Started cgminer 3.1.1                    
+ [2014-06-09 22:44:06] Loaded configuration file conf/cgminer_ttyUSB1.conf                    
+ [2014-06-09 22:44:10] [Speed] 328Mhz core|chip|board: [27.9K/s], [223K/s], [42.9M/s], readcount:281,bitnum:8                     
+ [2014-06-09 22:44:10] Probing for an alive pool                    
+ [2014-06-09 22:44:11] Network diff set to 705M                    
+ [2014-06-09 22:44:11] Stratum from pool 0 detected new block                    
+ [2014-06-09 22:44:11] Icarus 0 nounce2 = 01000000 readcount = 281 try sent: da25011900000000                    
+ [2014-06-09 22:44:13] Accepted 8695ec35 Diff 700/233 ICA 0                     
+ [2014-06-09 22:44:13] Accepted 06effe93 Diff 636/233 ICA 0                     
+ [2014-06-09 22:44:15] Accepted 387ca9e4 Diff 1.21K/233 ICA 0                     
+ [2014-06-09 22:44:16] Accepted 331bfeac Diff 549/233 ICA 0                     
+ [2014-06-09 22:44:16] Accepted 1e205fd5 Diff 454/233 ICA 0                     
+ [2014-06-09 22:44:16] Accepted 55403185 Diff 322/233 ICA 0                     
+ [2014-06-09 22:44:16] Accepted ba2961b4 Diff 455/233 ICA 0                     
+(5s):0.000 (avg):0.000h/s | A:7  R:0  HW:0  U:69.9/m  WU:16291.6/m          
+ [2014-06-09 22:44:20] Accepted dfe2491b Diff 690/233 ICA 0                     
+ [2014-06-09 22:44:22] Accepted 71cc5dc2 Diff 794/233 ICA 0                     
+(5s):0.000 (avg):0.000h/s | A:9  R:0  HW:0  U:45.0/m  WU:10477.9/m          
+ [2014-06-09 22:44:24] Accepted b3240c22 Diff 247/233 ICA 0                     
+ [2014-06-09 22:44:24] Accepted af08c670 Diff 699/233 ICA 0                     
+ [2014-06-09 22:44:24] Accepted 2f15b050 Diff 425/233 ICA 0                     
+ [2014-06-09 22:44:26] Accepted b638af73 Diff 822/233 ICA 0                     
+ [2014-06-09 22:44:26] Accepted 7ab3370b Diff 1.8K/233 ICA 0                     
+ [2014-06-09 22:44:29] Accepted b5b2b681 Diff 273/233 ICA 0                     
+(5s):0.000 (avg):0.000h/s | A:15  R:0  HW:0  U:50.0/m  WU:12420.4/m          
+ [2014-06-09 22:44:29] Accepted f4b8e302 Diff 936/233 ICA 0                     
+ [2014-06-09 22:44:31] Accepted 81a41c36 Diff 1.44K/233 ICA 0                     
+ [2014-06-09 22:44:31] Accepted 232a3e34 Diff 2.17K/233 ICA 0                     
+ [2014-06-09 22:44:32] Accepted d9bda4fa Diff 1.99K/233 ICA 0                     
+ [2014-06-09 22:44:35] Accepted ba0b9b77 Diff 2.2K/233 ICA 0                     
+(5s):0.000 (avg):0.000h/s | A:20  R:0  HW:0  U:50.0/m  WU:12809.5/m          
+ [2014-06-09 22:44:37] Accepted db3e0f69 Diff 1.17K/233 ICA 0                     
+ [2014-06-09 22:44:37] Accepted c07471c2 Diff 1.27K/233 ICA 0                     
+ [2014-06-09 22:44:40] Accepted 0a00c9aa Diff 431/233 ICA 0                     
+ [2014-06-09 22:44:40] Accepted f7975214 Diff 358/233 ICA 0                     
+ [2014-06-09 22:44:40] Accepted e4101214 Diff 417/233 ICA 0                     
+ [2014-06-09 22:44:40] Accepted 554f2b70 Diff 906/233 ICA 0                     
+ [2014-06-09 22:44:41] Accepted 764398dd Diff 749/233 ICA 0                     
+ [2014-06-09 22:44:41] Accepted b8189947 Diff 561/233 ICA 0                     
+ [2014-06-09 22:44:41] Accepted 6ae8195d Diff 267/233 ICA 0                     
+ [2014-06-09 22:44:41] Accepted 55d5dae7 Diff 245/233 ICA 0                     
+ [2014-06-09 22:44:41] Accepted 3f3beba0 Diff 611/233 ICA 0                     
+ [2014-06-09 22:44:41] Accepted 1f0faf31 Diff 838/233 ICA 0                     
+(5s):0.000 (avg):0.000h/s | A:32  R:0  HW:0  U:64.0/m  WU:14906.4/m          
+ [2014-06-09 22:44:41] 1restart or 2timeout:2                     
+ [2014-06-09 22:44:43] Icarus 0 nounce2 = 06000000 readcount = 281 try sent: da25011900000000                    
+ [2014-06-09 22:44:45] Accepted a3a01cce Diff 1.44K/233 ICA 0                     
+ [2014-06-09 22:44:45] Accepted bcdf8880 Diff 245/233 ICA 0                     
+ [2014-06-09 22:44:47] Accepted 9ced6316 Diff 2.56K/233 ICA 0                     
+(5s):132.2M (avg):35.57Mh/s | A:35  R:0  HW:0  U:58.1/m  WU:13527.0/m          
+ [2014-06-09 22:44:48] Accepted b4759bbf Diff 301/233 ICA 0                     
+ [2014-06-09 22:44:51] Accepted d2764944 Diff 625/233 ICA 0                     
+ [2014-06-09 22:44:51] Accepted 6f007ffd Diff 491/233 ICA 0                     
+ [2014-06-09 22:44:50] ICA0: invalid nonce - HW error                    
+ [2014-06-09 22:44:51] ERR nonce:fd02e138                     
+ [2014-06-09 22:44:51] Accepted dce6491d Diff 1.08K/233 ICA 0                     
+ [2014-06-09 22:44:51] Accepted 5028731b Diff 622/233 ICA 0                     
+ [2014-06-09 22:44:52] Accepted f2c9647a Diff 950/233 ICA 0                     
+ [2014-06-09 22:44:52] Accepted fcfda53f Diff 464/233 ICA 0                     
+ [2014-06-09 22:44:52] Accepted 3578b426 Diff 279/233 ICA 0                     
+ [2014-06-09 22:44:53] Accepted 72c56351 Diff 326/233 ICA 0                     
+(5s):48.52M (avg):31.15Mh/s | A:44  R:0  HW:1  U:63.9/m  WU:15232.2/m          
+ [2014-06-09 22:44:54] Accepted e3db365a Diff 252/233 ICA 0                     
+ [2014-06-09 22:44:55] ICA0: invalid nonce - HW error                    
+ [2014-06-09 22:44:55] ERR nonce:2c051d4f                     
+ [2014-06-09 22:44:56] Accepted 027c64b0 Diff 236/233 ICA 0                     
+(5s):17.81M (avg):27.20Mh/s | A:46  R:0  HW:2  U:58.3/m  WU:14777.3/m          
+ [2014-06-09 22:45:00] Accepted 069207c1 Diff 327/233 ICA 0                     
+ [2014-06-09 22:45:00] Accepted 11eb9dc0 Diff 436/233 ICA 0                     
+ [2014-06-09 22:45:03] Accepted e8868a5f Diff 1.09K/233 ICA 0                     
+ [2014-06-09 22:45:03] Accepted 490980f2 Diff 1.19K/233 ICA 0                     
+ [2014-06-09 22:45:03] Accepted 398f4953 Diff 545/233 ICA 0                     
+(5s):6.538M (avg):24.14Mh/s | A:51  R:0  HW:2  U:57.4/m  WU:13900.4/m          
+ [2014-06-09 22:45:05] Accepted 035fcb25 Diff 341/233 ICA 0                     
+ [2014-06-09 22:45:06] Accepted c9b31976 Diff 440/233 ICA 0                     
+ [2014-06-09 22:45:08] ICA0: invalid nonce - HW error                    
+ [2014-06-09 22:45:08] ERR nonce:9b0b0d1a                     
+ [2014-06-09 22:45:08] Accepted f9be44ff Diff 275/233 ICA 0                     
+ [2014-06-09 22:45:08] Accepted 85bd2a4e Diff 266/233 ICA 0                     
+ [2014-06-09 22:45:09] Accepted b383067a Diff 326/233 ICA 0                     
+(5s):2.400M (avg):21.70Mh/s | A:56  R:0  HW:3  U:56.7/m  WU:13908.2/m          
+ [2014-06-09 22:45:11] Accepted 2d7e13e0 Diff 1.13K/233 ICA 0                     
+ [2014-06-09 22:45:11] Accepted 40f2a9a3 Diff 1.25K/233 ICA 0                     
+ [2014-06-09 22:45:13] Accepted 488e3815 Diff 634/233 ICA 0                     
+ [2014-06-09 22:45:14] 1restart or 2timeout:2                     
+ [2014-06-09 22:45:14] Icarus 0 nounce2 = 09000000 readcount = 281 try sent: da25011900000000                    
+ [2014-06-09 22:45:15] Accepted cb828196 Diff 1.2K/233 ICA 0                     
+ [2014-06-09 22:45:16] Accepted cb8dfecb Diff 244/233 ICA 0                     
+(5s):139.3M (avg):39.80Mh/s | A:61  R:0  HW:3  U:56.0/m  WU:13914.5/m          
+ [2014-06-09 22:45:18] Shutdown signal received.                    
+ [2014-06-09 22:45:18] 
+Summary of runtime statistics:
+                    
+ [2014-06-09 22:45:18] Started at [2014-06-09 22:44:11]                    
+ [2014-06-09 22:45:18] Pool: stratum+tcp://stratum.f2pool.com:8888                    
+ [2014-06-09 22:45:18] Runtime: 0 hrs : 1 mins : 7 secs                    
+ [2014-06-09 22:45:18] Average hashrate: 39.8 Megahash/s                    
+ [2014-06-09 22:45:18] Solved blocks: 0                    
+ [2014-06-09 22:45:18] Best share difficulty: 2.56K                    
+ [2014-06-09 22:45:18] Share submissions: 61                    
+ [2014-06-09 22:45:18] Accepted shares: 61                    
+ [2014-06-09 22:45:18] Rejected shares: 0                    
+ [2014-06-09 22:45:18] Accepted difficulty shares: 14213                    
+ [2014-06-09 22:45:18] Rejected difficulty shares: 0                    
+ [2014-06-09 22:45:18] Reject ratio: 0.0%                    
+ [2014-06-09 22:45:18] Hardware errors: 3                    
+ [2014-06-09 22:45:18] Utility (accepted shares / min): 56.04/min                    
+ [2014-06-09 22:45:18] Work Utility (diff1 shares solved / min): 14128.62/min
+                    
+ [2014-06-09 22:45:18] Stale submissions discarded due to new blocks: 0                    
+ [2014-06-09 22:45:18] Unable to get work from server occasions: 0                    
+ [2014-06-09 22:45:18] Work items generated locally: 12                    
+ [2014-06-09 22:45:18] Submitting work remotely delay occasions: 0                    
+ [2014-06-09 22:45:18] New blocks detected on network: 1
+                    
+ [2014-06-09 22:45:18] Summary of per device statistics:
+                    
+ [2014-06-09 22:45:18] ICA0                | (5s):28.93M (avg):39.80Mh/s | A:61 R:0 HW:3 U:0.0/m                    
+ [2014-06-09 22:45:18]                      
+ [2014-06-09 22:46:04] Started cgminer 3.1.1                    
+ [2014-06-09 22:46:04] Loaded configuration file conf/cgminer_ttyUSB1.conf                    
+ [2014-06-09 22:46:08] [Speed] 328Mhz core|chip|board: [27.9K/s], [223K/s], [42.9M/s], readcount:281,bitnum:8                     
+ [2014-06-09 22:46:08] Probing for an alive pool                    
+ [2014-06-09 22:46:08] Network diff set to 705M                    
+ [2014-06-09 22:46:08] Stratum from pool 0 detected new block                    
+ [2014-06-09 22:46:09] Icarus 0 nounce2 = 01000000 readcount = 281 try sent: da25011900000000                    
+ [2014-06-09 22:46:09] Accepted 1ff71119 Diff 488/233 ICA 0                     
+ [2014-06-09 22:46:10] Accepted c822266d Diff 437/233 ICA 0                     
+(5s):0.000 (avg):0.000h/s | A:2  R:0  HW:0  U:19.9/m  WU:16257.1/m          
+ [2014-06-09 22:46:16] Accepted 4093a80a Diff 4.95K/233 ICA 0                     
+ [2014-06-09 22:46:16] Accepted 9ad0f6eb Diff 3.95K/233 ICA 0                     
+ [2014-06-09 22:46:16] Accepted cc4bcb2e Diff 1.22K/233 ICA 0                     
+ [2014-06-09 22:46:16] Accepted a950fda2 Diff 479/233 ICA 0                     
+ [2014-06-09 22:46:16] Accepted fa2e6372 Diff 236/233 ICA 0                     
+ [2014-06-09 22:46:17] Accepted ed48a5a5 Diff 283/233 ICA 0                     
+ [2014-06-09 22:46:18] Accepted 45940fcc Diff 1.23K/233 ICA 0                     
+ [2014-06-09 22:46:18] Accepted 4d0bac9f Diff 438/233 ICA 0                     
+ [2014-06-09 22:46:18] Accepted b9584f31 Diff 1.2K/233 ICA 0                     
+ [2014-06-09 22:46:18] Accepted 6bdd6b94 Diff 1.9K/233 ICA 0                     
+ [2014-06-09 22:46:20] Accepted 65eca5c6 Diff 234/233 ICA 0                     
+ [2014-06-09 22:46:20] ICA0: invalid nonce - HW error                    
+ [2014-06-09 22:46:20] ERR nonce:f2053b8d                     
+(5s):0.000 (avg):0.000h/s | A:13  R:0  HW:1  U:64.9/m  WU:16281.8/m          
+ [2014-06-09 22:46:22] Accepted 9b3becfd Diff 259/233 ICA 0                     
+ [2014-06-09 22:46:23] Accepted 98b307a8 Diff 333/233 ICA 0                     
+ [2014-06-09 22:46:23] Accepted b57a6984 Diff 309/233 ICA 0                     
+ [2014-06-09 22:46:24] Accepted e0947a90 Diff 16.9K/233 ICA 0                     
+ [2014-06-09 22:46:25] Accepted 67a5183a Diff 466/233 ICA 0                     
+ [2014-06-09 22:46:25] Accepted 4eb0d372 Diff 870/233 ICA 0                     
+ [2014-06-09 22:46:26] Accepted 6cb68370 Diff 320/233 ICA 0                     
+(5s):0.000 (avg):0.000h/s | A:20  R:0  HW:1  U:66.6/m  WU:16282.6/m          
+ [2014-06-09 22:46:30] Accepted 475ff2d6 Diff 653/233 ICA 0                     
+ [2014-06-09 22:46:30] Accepted b1d177fe Diff 493/233 ICA 0                     
+ [2014-06-09 22:46:31] Accepted b0eff5de Diff 362/233 ICA 0                     
+ [2014-06-09 22:46:31] Accepted a7c38efb Diff 2.55K/233 ICA 0                     
+ [2014-06-09 22:46:31] Accepted 47dbb122 Diff 441/233 ICA 0                     
+ [2014-06-09 22:46:32] Accepted 045a58f4 Diff 1.93K/233 ICA 0                     
+ [2014-06-09 22:46:32] Accepted 809a5d51 Diff 534/233 ICA 0                     
+(5s):0.000 (avg):0.000h/s | A:27  R:0  HW:1  U:67.4/m  WU:16288.7/m          
+ [2014-06-09 22:46:35] Accepted 79ae17f3 Diff 293/233 ICA 0                     
+ [2014-06-09 22:46:38] Accepted a52fe686 Diff 4.47K/233 ICA 0                     
+(5s):0.000 (avg):0.000h/s | A:29  R:0  HW:1  U:57.9/m  WU:14430.3/m          
+ [2014-06-09 22:46:39] 1restart or 2timeout:2                     
+ [2014-06-09 22:46:39] Icarus 0 nounce2 = 06000000 readcount = 281 try sent: da25011900000000                    
+ [2014-06-09 22:46:41] Accepted 5780c72c Diff 307/233 ICA 0                     
+ [2014-06-09 22:46:41] Accepted d7ac7a54 Diff 5.53K/233 ICA 0                     
+ [2014-06-09 22:46:41] Accepted 9c40e2c1 Diff 823/233 ICA 0                     
+ [2014-06-09 22:46:41] Accepted 0ee30799 Diff 250/233 ICA 0                     
+ [2014-06-09 22:46:43] Accepted 55007a8c Diff 2.09K/233 ICA 0                     
+ [2014-06-09 22:46:44] Accepted 629b9f79 Diff 480/233 ICA 0                     
+(5s):135.4M (avg):35.64Mh/s | A:35  R:0  HW:1  U:58.3/m  WU:13966.9/m          
+ [2014-06-09 22:46:46] Accepted 48d9a3cf Diff 12.4K/233 ICA 0                     
+ [2014-06-09 22:46:46] Accepted f6180a27 Diff 642/233 ICA 0                     
+ [2014-06-09 22:46:49] Accepted b67c5e0f Diff 556/233 ICA 0                     
+ [2014-06-09 22:46:50] Accepted 1f043482 Diff 507/233 ICA 0                     
+ [2014-06-09 22:46:50] Accepted ff0bf33c Diff 668/233 ICA 0                     
+ [2014-06-09 22:46:50] Accepted 968b9596 Diff 8.64K/233 ICA 0                     
+(5s):49.71M (avg):30.55Mh/s | A:41  R:0  HW:1  U:58.5/m  WU:13968.3/m          
+ [2014-06-09 22:46:52] Accepted 0d73d3c9 Diff 13K/233 ICA 0                     
+ [2014-06-09 22:46:52] Accepted ff37ee18 Diff 923/233 ICA 0                     
+ [2014-06-09 22:46:53] Accepted b8344539 Diff 261/233 ICA 0                     
+ [2014-06-09 22:46:56] Accepted 0edf3c32 Diff 1.31K/233 ICA 0                     
+ [2014-06-09 22:46:56] ICA0: invalid nonce - HW error                    
+ [2014-06-09 22:46:56] ERR nonce:fd07e1b2                     
+(5s):18.25M (avg):26.73Mh/s | A:45  R:0  HW:2  U:56.2/m  WU:13969.3/m          
+ [2014-06-09 22:46:57] Accepted 09493935 Diff 275/233 ICA 0                     
+ [2014-06-09 22:47:00] Accepted f6895f41 Diff 607/233 ICA 0                     
+ [2014-06-09 22:47:00] Accepted 3f4ea4f4 Diff 734/233 ICA 0                     
+ [2014-06-09 22:47:02] Accepted 9f97badf Diff 7.6K/233 ICA 0                     
+(5s):6.699M (avg):23.76Mh/s | A:49  R:0  HW:2  U:54.4/m  WU:13452.8/m          
+ [2014-06-09 22:47:03] Accepted 5c860434 Diff 263/233 ICA 0                     
+ [2014-06-09 22:47:03] Accepted 39722c58 Diff 436/233 ICA 0                     
+ [2014-06-09 22:47:03] Accepted 6b996f82 Diff 323/233 ICA 0                     
+ [2014-06-09 22:47:08] Accepted 680d7431 Diff 269/233 ICA 0                     
+ [2014-06-09 22:47:08] 1restart or 2timeout:2                     
+(5s):147.5M (avg):42.71Mh/s | A:53  R:0  HW:2  U:53.4/m  WU:12916.2/m          
+ [2014-06-09 22:47:08] Icarus 0 nounce2 = 0b000000 readcount = 281 try sent: da25011900000000                    
+ [2014-06-09 22:47:08] Accepted 2c0e17d4 Diff 322/233 ICA 0                     
+ [2014-06-09 22:47:10] Accepted 35e7c214 Diff 353/233 ICA 0                     
+ [2014-06-09 22:47:10] Accepted ba7cd327 Diff 493/233 ICA 0                     
+ [2014-06-09 22:47:10] Accepted 42f1552a Diff 640/233 ICA 0                     
+ [2014-06-09 22:47:11] Accepted 665f6e0f Diff 1.91K/233 ICA 0                     
+ [2014-06-09 22:47:11] ICA0: invalid nonce - HW error                    
+ [2014-06-09 22:47:11] ERR nonce:bd8170d2                     
+ [2014-06-09 22:47:11] Accepted 0473ff5f Diff 417/233 ICA 0                     
+ [2014-06-09 22:47:14] Accepted 6b18808e Diff 347/233 ICA 0                     
+(5s):54.14M (avg):38.50Mh/s | A:60  R:0  HW:3  U:54.5/m  WU:13336.5/m          
+ [2014-06-09 22:47:15] Accepted 85fcd6d4 Diff 700/233 ICA 0                     
+ [2014-06-09 22:47:16] Stratum from pool 0 detected new block                    
+ [2014-06-09 22:47:16] 1restart or 2timeout:1                     
+ [2014-06-09 22:47:16] Icarus 0 nounce2 = 01000000 readcount = 281 try sent: da25011900000000                    
+(5s):55.21M (avg):40.05Mh/s | A:61  R:0  HW:3  U:50.8/m  WU:13972.0/m          
+ [2014-06-09 22:47:21] Accepted 6378cacf Diff 627/233 ICA 0                     
+ [2014-06-09 22:47:22] Accepted f6718fee Diff 1.99K/233 ICA 0                     
+ [2014-06-09 22:47:23] Accepted 9785d47f Diff 238/233 ICA 0                     
+ [2014-06-09 22:47:23] Accepted d4f5a15f Diff 482/233 ICA 0                     
+ [2014-06-09 22:47:23] Accepted 70196f40 Diff 363/233 ICA 0                     
+ [2014-06-09 22:47:23] Accepted cb0d9e67 Diff 3.01K/233 ICA 0                     
+ [2014-06-09 22:47:23] Accepted ac898c1c Diff 469/233 ICA 0                     
+ [2014-06-09 22:47:24] Accepted ed2839bc Diff 262/233 ICA 0                     
+ [2014-06-09 22:47:24] Accepted ac1952ec Diff 1.24K/233 ICA 0                     
+ [2014-06-09 22:47:24] Accepted 62a727ba Diff 905/233 ICA 0                     
+ [2014-06-09 22:47:28] Accepted 224646f4 Diff 3.61K/233 ICA 0                     
+ [2014-06-09 22:47:28] Accepted 4573864c Diff 259/233 ICA 0                     
+(5s):20.27M (avg):36.54Mh/s | A:73  R:0  HW:3  U:55.5/m  WU:13987.4/m          
+ [2014-06-09 22:47:28] Accepted 6f02321e Diff 518/233 ICA 0                     
+ [2014-06-09 22:47:28] Accepted f182809b Diff 736/233 ICA 0                     
+ [2014-06-09 22:47:29] Accepted 400c24fa Diff 313/233 ICA 0                     
+ [2014-06-09 22:47:29] Accepted 8e93c0aa Diff 290/233 ICA 0                     
+ [2014-06-09 22:47:29] Accepted b4ae157f Diff 241/233 ICA 0                     
+ [2014-06-09 22:47:30] Accepted a08d3c53 Diff 255/233 ICA 0                     
+ [2014-06-09 22:47:31] Accepted 76df8f6e Diff 824/233 ICA 0                     
+ [2014-06-09 22:47:31] Accepted fdbfed12 Diff 284/233 ICA 0                     
+(5s):7.440M (avg):33.96Mh/s | A:81  R:0  HW:3  U:57.2/m  WU:13822.1/m          
+ [2014-06-09 22:47:38] Accepted 91ae5eeb Diff 784/233 ICA 0                     
+ [2014-06-09 22:47:38] Accepted 23229099 Diff 257/233 ICA 0                     
+ [2014-06-09 22:47:39] Accepted a43d0512 Diff 291/233 ICA 0                     
+(5s):2.731M (avg):31.72Mh/s | A:84  R:0  HW:3  U:55.4/m  WU:13371.3/m          
+ [2014-06-09 22:47:42] Stratum from pool 0 requested work restart                    
+ [2014-06-09 22:47:43] 1restart or 2timeout:1                     
+ [2014-06-09 22:47:43] Icarus 0 nounce2 = 0b000000 readcount = 281 try sent: da2500ad00000000                    
+ [2014-06-09 22:47:44] Accepted 08b2b847 Diff 496/233 ICA 0                     
+(5s):119.1M (avg):41.30Mh/s | A:85  R:0  HW:3  U:52.6/m  WU:12687.8/m          
+ [2014-06-09 22:47:47] Accepted 9a90b796 Diff 1.44K/377 ICA 0                     
+ [2014-06-09 22:47:47] Accepted 4b2a2bd1 Diff 858/377 ICA 0                     
+ [2014-06-09 22:47:47] Accepted 65bde431 Diff 510/377 ICA 0                     
+ [2014-06-09 22:47:48] Accepted 802ef551 Diff 1.18K/377 ICA 0                     
+ [2014-06-09 22:47:50] Accepted f6bfaf8d Diff 636/377 ICA 0                     
+ [2014-06-09 22:47:50] Accepted e87e50d1 Diff 1.82K/377 ICA 0                     
+(5s):43.72M (avg):38.90Mh/s | A:91  R:0  HW:3  U:53.0/m  WU:13266.4/m          
+ [2014-06-09 22:47:52] Accepted cd92613f Diff 706/377 ICA 0                     
+ [2014-06-09 22:47:55] Accepted 9a420bac Diff 1.32K/377 ICA 0                     
+ [2014-06-09 22:47:56] ICA0: invalid nonce - HW error                    
+ [2014-06-09 22:47:56] ERR nonce:b4864bcf                     
+ [2014-06-09 22:47:57] Accepted b411bee6 Diff 670/377 ICA 0                     
+(5s):16.05M (avg):36.75Mh/s | A:94  R:0  HW:4  U:51.8/m  WU:13366.2/m          
+ [2014-06-09 22:47:58] Accepted 4c7843cf Diff 219K/377 ICA 0                     
+ [2014-06-09 22:48:01] Accepted 0bdabc0f Diff 383/377 ICA 0                     
+ [2014-06-09 22:48:03] Accepted 8462405a Diff 3.04K/377 ICA 0                     
+(5s):5.891M (avg):34.84Mh/s | A:97  R:0  HW:4  U:50.6/m  WU:13258.7/m          
+ [2014-06-09 22:48:05] Accepted 4b2481dd Diff 28.6K/377 ICA 0                     
+(5s):2.162M (avg):33.11Mh/s | A:98  R:0  HW:4  U:48.6/m  WU:13162.0/m          
+ [2014-06-09 22:48:11] Accepted 2eb9cae5 Diff 4.05K/377 ICA 0                     
+ [2014-06-09 22:48:11] Accepted e1669f17 Diff 381/377 ICA 0                     
+ [2014-06-09 22:48:12] Accepted 6e3c0e41 Diff 539/377 ICA 0                     
+ [2014-06-09 22:48:12] 1restart or 2timeout:2                     
+ [2014-06-09 22:48:12] Icarus 0 nounce2 = 0e000000 readcount = 281 try sent: da2500ad00000000                    
+ [2014-06-09 22:48:13] Accepted fd5987c6 Diff 439/377 ICA 0                     
+ [2014-06-09 22:48:15] Accepted dd2ceb93 Diff 2.75K/377 ICA 0                     
+(5s):131.4M (avg):41.35Mh/s | A:103  R:0  HW:4  U:48.7/m  WU:13070.3/m          
+ [2014-06-09 22:48:16] Accepted 6de2149a Diff 1.75K/377 ICA 0                     
+ [2014-06-09 22:48:17] Accepted c114a7c5 Diff 1.04K/377 ICA 0                     
+(5s):48.23M (avg):39.48Mh/s | A:105  R:0  HW:4  U:47.4/m  WU:12990.8/m          
+ [2014-06-09 22:48:24] Network diff set to 40M                    
+ [2014-06-09 22:48:24] Stratum from pool 0 detected new block                    
+ [2014-06-09 22:48:24] Accepted 56e6f43d Diff 815/377 ICA 0                     
+ [2014-06-09 22:48:24] 1restart or 2timeout:1                     
+ [2014-06-09 22:48:24] Icarus 0 nounce2 = 01000000 readcount = 281 try sent: da2500ad00000000                    
+ [2014-06-09 22:48:25] Accepted 7f510a6a Diff 494/377 ICA 0                     
+ [2014-06-09 22:48:26] Accepted 590e3cd7 Diff 514/377 ICA 0                     
+(5s):74.30M (avg):41.64Mh/s | A:108  R:0  HW:4  U:46.6/m  WU:12755.4/m          
+ [2014-06-09 22:48:30] Accepted c1f17dd9 Diff 791/377 ICA 0                     
+ [2014-06-09 22:48:30] Accepted 258719eb Diff 4.33K/377 ICA 0                     
+ [2014-06-09 22:48:30] Accepted bfaaa43a Diff 581/377 ICA 0                     
+(5s):27.27M (avg):39.91Mh/s | A:111  R:0  HW:4  U:45.9/m  WU:12695.4/m          
+ [2014-06-09 22:48:34] Accepted 10bc2c5c Diff 2.11K/377 ICA 0                     
+ [2014-06-09 22:48:37] Accepted 1c0910bf Diff 1.11K/377 ICA 0                     
+ [2014-06-09 22:48:35] ICA0: invalid nonce - HW error                    
+ [2014-06-09 22:48:37] ERR nonce:b2050054                     
+ [2014-06-09 22:48:37] Accepted e06bdcef Diff 475/377 ICA 0                     
+ [2014-06-09 22:48:38] Accepted aca3fee4 Diff 1.18K/377 ICA 0                     
+(5s):10.01M (avg):38.53Mh/s | A:115  R:0  HW:5  U:45.9/m  WU:13159.7/m          
+ [2014-06-09 22:48:39] Accepted 30538ef8 Diff 414/377 ICA 0                     
+ [2014-06-09 22:48:39] Accepted 6cc3b680 Diff 1.54K/377 ICA 0                     
+(5s):3.675M (avg):37.05Mh/s | A:117  R:0  HW:5  U:44.9/m  WU:12943.8/m          
+ [2014-06-09 22:48:46] Accepted 1f2f7571 Diff 411/377 ICA 0                     
+ [2014-06-09 22:48:46] ICA0: invalid nonce - HW error                    
+ [2014-06-09 22:48:46] ERR nonce:338a09ec                     
+ [2014-06-09 22:48:47] Accepted 50f196b9 Diff 1.25K/377 ICA 0                     
+ [2014-06-09 22:48:51] Accepted 48e5ad78 Diff 4.93K/377 ICA 0                     
+(5s):1.349M (avg):35.68Mh/s | A:120  R:0  HW:6  U:44.4/m  WU:13162.2/m          
+ [2014-06-09 22:48:51] Accepted 41d929dc Diff 3.23K/377 ICA 0                     
+ [2014-06-09 22:48:53] Accepted ba5c5c59 Diff 418/377 ICA 0                     
+ [2014-06-09 22:48:53] Accepted 9f85d461 Diff 1.18K/377 ICA 0                     
+ [2014-06-09 22:48:54] Accepted da0c3c90 Diff 409/377 ICA 0                     
+ [2014-06-09 22:48:54] Accepted 8c3830bd Diff 424/377 ICA 0                     
+ [2014-06-09 22:48:55] 1restart or 2timeout:2                     
+ [2014-06-09 22:48:55] Icarus 0 nounce2 = 08000000 readcount = 281 try sent: da2500ad00000000                    
+ [2014-06-09 22:48:56] Accepted fefb5adf Diff 1.11K/377 ICA 0                     
+ [2014-06-09 22:48:56] Accepted 34397294 Diff 641/377 ICA 0                     
+ [2014-06-09 22:48:57] Accepted 7a7d8dd3 Diff 396/377 ICA 0                     
+(5s):139.2M (avg):42.23Mh/s | A:128  R:0  HW:6  U:45.7/m  WU:13499.4/m          
+ [2014-06-09 22:49:02] Accepted 892454da Diff 1.79K/377 ICA 0                     
+ [2014-06-09 22:49:02] ICA0: invalid nonce - HW error                    
+ [2014-06-09 22:49:02] ERR nonce:4403254e                     
+ [2014-06-09 22:49:02] Accepted ef5f00bf Diff 2.99K/377 ICA 0                     
+(5s):51.09M (avg):40.77Mh/s | A:130  R:0  HW:7  U:44.8/m  WU:13423.9/m          
+ [2014-06-09 22:49:05] Accepted 90bc8c6f Diff 14.4K/377 ICA 0                     
+ [2014-06-09 22:49:05] Accepted 4053f9b7 Diff 2.32K/377 ICA 0                     
+ [2014-06-09 22:49:05] Accepted d2fc1836 Diff 449/377 ICA 0                     
+ [2014-06-09 22:49:06] Stratum from pool 0 detected new block                    
+ [2014-06-09 22:49:06] Accepted 4d48da35 Diff 1.51K/377 ICA 0                     
+ [2014-06-09 22:49:06] 1restart or 2timeout:1                     
+ [2014-06-09 22:49:06] Icarus 0 nounce2 = 01000000 readcount = 281 try sent: da2500ad00000000                    
+ [2014-06-09 22:49:07] Accepted 1b73e65c Diff 477/377 ICA 0                     
+(5s):61.70M (avg):42.08Mh/s | A:135  R:0  HW:7  U:44.9/m  WU:13604.5/m          
+ [2014-06-09 22:49:14] Accepted 696e2715 Diff 604/377 ICA 0                     
+(5s):22.65M (avg):40.81Mh/s | A:136  R:0  HW:7  U:43.9/m  WU:13437.2/m          
+ [2014-06-09 22:49:15] Network diff set to 45.3M                    
+ [2014-06-09 22:49:15] Stratum from pool 0 detected new block                    
+ [2014-06-09 22:49:15] 1restart or 2timeout:1                     
+ [2014-06-09 22:49:15] Icarus 0 nounce2 = 01000000 readcount = 281 try sent: da2500ad00000000                    
+ [2014-06-09 22:49:16] Accepted 6ea363ff Diff 686/377 ICA 0                     
+ [2014-06-09 22:49:16] Accepted bb563af8 Diff 443/377 ICA 0                     
+ [2014-06-09 22:49:17] Accepted ddbcc05c Diff 630/377 ICA 0                     
+ [2014-06-09 22:49:18] Accepted 397a68ea Diff 454/377 ICA 0                     
+ [2014-06-09 22:49:19] Accepted e1a370df Diff 4.13K/377 ICA 0                     
+(5s):48.80M (avg):41.53Mh/s | A:141  R:0  HW:7  U:44.1/m  WU:13488.3/m          
+ [2014-06-09 22:49:21] Stratum from pool 0 requested work restart                    
+ [2014-06-09 22:49:21] 1restart or 2timeout:1                     
+ [2014-06-09 22:49:21] Icarus 0 nounce2 = 07000000 readcount = 281 try sent: da25004200000000                    
+ [2014-06-09 22:49:25] Accepted 540c9143 Diff 1.3K/986 ICA 0                     
+ [2014-06-09 22:49:26] Accepted aa56615f Diff 1.65K/986 ICA 0                     
+(5s):44.73M (avg):41.41Mh/s | A:143  R:0  HW:7  U:43.4/m  WU:13677.2/m          
+ [2014-06-09 22:49:28] Accepted 0c83bb21 Diff 1.56K/986 ICA 0                     
+(5s):16.42M (avg):40.20Mh/s | A:144  R:0  HW:7  U:42.4/m  WU:13564.8/m          
+(5s):6.027M (avg):39.05Mh/s | A:144  R:0  HW:7  U:41.2/m  WU:13176.9/m          
+ [2014-06-09 22:49:40] Accepted 45d5bd99 Diff 4.29K/986 ICA 0                     
+ [2014-06-09 22:49:40] Accepted 6daeeeab Diff 1.03K/986 ICA 0                     
+ [2014-06-09 22:49:43] Accepted 642632fd Diff 168K/986 ICA 0                     
+(5s):2.212M (avg):37.96Mh/s | A:147  R:0  HW:7  U:40.9/m  WU:13632.8/m          
+ [2014-06-09 22:49:46] Accepted 4bd2023f Diff 2.4K/986 ICA 0                     
+ [2014-06-09 22:49:49] Accepted 1531db7b Diff 1.17K/986 ICA 0                     
+ [2014-06-09 22:49:49] 1restart or 2timeout:2                     
+ [2014-06-09 22:49:49] Icarus 0 nounce2 = 0a000000 readcount = 281 try sent: da25004200000000                    
+(5s):129.6M (avg):42.44Mh/s | A:149  R:0  HW:7  U:40.3/m  WU:13797.4/m          
+(5s):47.56M (avg):41.32Mh/s | A:149  R:0  HW:7  U:39.2/m  WU:13693.6/m          
+ [2014-06-09 22:49:59] Accepted 8348397e Diff 1.9K/986 ICA 0                     
+ [2014-06-09 22:50:01] Accepted e30b94ca Diff 2.63K/986 ICA 0                     
+(5s):17.46M (avg):40.26Mh/s | A:151  R:0  HW:7  U:38.7/m  WU:13595.2/m          
+ [2014-06-09 22:50:07] Network diff set to 705M                    
+ [2014-06-09 22:50:07] Stratum from pool 0 detected new block                    
+ [2014-06-09 22:50:07] 1restart or 2timeout:1                     
+ [2014-06-09 22:50:07] Icarus 0 nounce2 = 01000000 readcount = 281 try sent: da25004200000000                    
+ [2014-06-09 22:50:08] Accepted 6f6afee0 Diff 1.16K/986 ICA 0                     
+(5s):83.53M (avg):42.30Mh/s | A:152  R:0  HW:7  U:38.0/m  WU:13501.7/m          
+ [2014-06-09 22:50:11] Accepted a623bc6f Diff 1.89K/986 ICA 0                     
+ [2014-06-09 22:50:13] Accepted 0204b2c3 Diff 1.17K/986 ICA 0                     
+(5s):30.66M (avg):41.27Mh/s | A:154  R:0  HW:7  U:37.6/m  WU:13653.4/m          
+ [2014-06-09 22:50:15] Accepted 32f84905 Diff 1.52K/986 ICA 0                     
+ [2014-06-09 22:50:17] Accepted d46eb65c Diff 1.65K/986 ICA 0                     
+(5s):11.26M (avg):40.29Mh/s | A:156  R:0  HW:7  U:37.2/m  WU:13799.1/m          
+ [2014-06-09 22:50:25] Accepted e54a97cd Diff 8.3K/986 ICA 0                     
+(5s):4.131M (avg):39.32Mh/s | A:157  R:0  HW:7  U:36.5/m  WU:13696.8/m          
+(5s):1.516M (avg):38.42Mh/s | A:157  R:0  HW:7  U:35.7/m  WU:13385.5/m          
+ [2014-06-09 22:50:35] 1restart or 2timeout:2                     
+ [2014-06-09 22:50:35] Icarus 0 nounce2 = 06000000 readcount = 281 try sent: da25004200000000                    
+(5s):129.4M (avg):42.10Mh/s | A:157  R:0  HW:7  U:34.9/m  WU:13088.0/m          
+ [2014-06-09 22:50:42] Accepted 6a611a55 Diff 1.27K/986 ICA 0                     
+ [2014-06-09 22:50:42] Accepted 4362b35a Diff 2.24K/986 ICA 0                     
+ [2014-06-09 22:50:43] Accepted 1b644b3d Diff 5.41K/986 ICA 0                     
+(5s):47.51M (avg):41.18Mh/s | A:160  R:0  HW:7  U:34.8/m  WU:13446.4/m          
+ [2014-06-09 22:50:49] Accepted dda4e98c Diff 1.99K/986 ICA 0                     
+(5s):17.44M (avg):40.30Mh/s | A:161  R:0  HW:7  U:34.3/m  WU:13370.1/m          
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
