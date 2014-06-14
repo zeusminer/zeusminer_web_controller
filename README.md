@@ -75,5 +75,6 @@ our user manual: http://zeusminer.com/user-manual-ver-1-0/
 
 
 BTC Address: 17MCWaD1se8vVDdna6PWrtMxjoH41KcQzd
+
 LTC Address: LY9nTc7jKA99vT2aubssov9yG6JX9N48Qk
 
