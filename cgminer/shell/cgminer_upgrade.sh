@@ -13,6 +13,7 @@ cd ${SERVICE_PATH}
 sudo git pull
 
 sudo chown -R www-data:www-data ${SERVICE_PATH}
+sudo chmod a+w ${SERVICE_PATH}/cgminer/log
 sudo chmod a+x ${SERVICE_PATH}/cgminer/bin/cgminer
 sudo chmod a+x ${SERVICE_PATH}/cgminer/shell/*
 
