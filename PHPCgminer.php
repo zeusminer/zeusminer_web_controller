@@ -1,7 +1,6 @@
 <?php
 
 header("Content-type: text/html; charset=utf-8");
-
 class PHPCgminer {
 
 	//shell文件所在目录
@@ -9,15 +8,15 @@ class PHPCgminer {
     //cgminer的配置文件所在目录
     private $cgminer_conf_dir = 'cgminer/conf/';
     //cgminer api 起始端口
-    private $cgminer_api_base_port = 18100;
+    //private $cgminer_api_base_port = 18100;
 
 	/**
 	 * 写入配置文件
 	 * $port : 设备端口
 	 * $params : 配置参数数组
 	 */
-	public function write_config($port, $params){
-        $pool = array();
+	public function write_config($port, $config_string){
+        /*$pool = array();
         $pool['url']    = $params['pool'];
         $pool['user']   = $params['worker'];
         $pool['pass']   = $params['pwd'];
@@ -32,14 +31,17 @@ class PHPCgminer {
 
         $config['api-listen']       = true;
         $config['api-network']      = true;
-        $config['api-port']         = strval($this->cgminer_api_base_port + intval(substr($port, 6)));
+        $config['api-port']         = strval($this->cgminer_api_base_port + intval(substr($port, 6)));*/
 
-        $config_string = json_encode($config, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
+        //$config_string = json_encode($config, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
+        //$config_string = json_encode($config_json , JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
 
+        //格式化
+        $config_string_pretty = json_encode(json_decode($config_string),JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
 		//写入文件
         $config_path = $this->cgminer_conf_dir.'cgminer_'.$port.'.conf';
 		$f = fopen($config_path,'w');
-		$f_result = fwrite($f, $config_string);
+		$f_result = fwrite($f, $config_string_pretty);
 		fclose($f);
 
 		return $f_result;
@@ -111,13 +113,13 @@ $cgminer = new PHPCgminer();
 //操作类型
 $action = $_GET['action'];
 //矿机端口
-$port = $_POST['port'];
+$port = array_key_exists('port',$_POST)?$_POST['port']:'';
 
 //保存并重启
 if($action == 'start'){
 	
 	//挖矿参数
-	$params = array();
+/*	$params = array();
 
 	$params['pool'] = $_POST['pool'];
 	$params['worker'] = $_POST['worker'];
@@ -129,10 +131,10 @@ if($action == 'start'){
     if ($_POST['nocheck_golden'] == 'true')
         $params['nocheck_golden'] = true;
     if ($_POST['ltc_debug'])
-        $params['ltc_debug'] = true;
+        $params['ltc_debug'] = true;*/
 
 	//保存配置
-	if($cgminer -> write_config($port,$params)){
+	if($cgminer -> write_config($port,$_POST['config_string'])){
 		//开始挖矿
 		echo $cgminer -> start($port);
 	}

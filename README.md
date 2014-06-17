@@ -11,7 +11,7 @@ Download the Raspberry offcial image in http://www.raspberrypi.org/downloads/
 You can choice your favourite image. If you don't know which one to choice,
 the RASPBIAN is recommand.
 
-Then Install it on you SD card by following the offcial document
+Then Install it on you SD card by following the offcial document:
 http://www.raspberrypi.org/help/noobs-setup/
 
 ### step 2: Set up web server
@@ -31,7 +31,7 @@ sudo lighty-enable-mod fastcgi-php
 
 Restart lighttpd
 ```
-sudo service lighttpd force-reload
+sudo service lighttpd restart
 ```
 
 Tweak Permissions
@@ -49,9 +49,9 @@ visit the controller directly by type the ip address.
 The cgminer need root privilege to run. So we need add the www-data user
 to the sudo users. By run following command:
 ```
-sudo chmod +x /etc/sudoers
+sudo chmod +w /etc/sudoers
 sudo echo "www-data ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
-sudo chmod -x /etc/sudoers
+sudo chmod -w /etc/sudoers
 ```
 
 Then, run command
@@ -65,7 +65,7 @@ add the following line on the end:
 This script check the cgminer process every minute, If one of the cgminer process is down,
 it will run it again.
 
-### set 4
+### step 4
 Open you browser and type the ip of raspberry pi. You will see the welcome page, and it is
 really easy to setup, enjoy!
 

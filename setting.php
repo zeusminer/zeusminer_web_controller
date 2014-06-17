@@ -105,29 +105,58 @@
                 </div>
 
                 <form class="form-horizontal" role="form" method="post">
-                    <div class="form-group">
-                        <label for="pool" class="col-sm-2 control-label">Pool Address</label>
+                    <fieldset class="pools-info-{{this}}">
+                        <legend>Primary Pool</legend>
+                        <div class="form-group">
+                            <label for="pool" class="col-sm-2 control-label">Pool Address</label>
 
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="pool_{{this}}" name="pool"
-                                   value="stratum+tcp://"/>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control url"  name="pool"
+                                       value="stratum+tcp://"/>
+                            </div>
                         </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="worker" class="col-sm-2 control-label">Worker Name</label>
+                        <div class="form-group">
+                            <label for="worker" class="col-sm-2 control-label">Worker Name</label>
 
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="worker_{{this}}" name="work"
-                                   placeholder="Please input the worker name" value=""/>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control worker" name="work"
+                                       placeholder="Please input the worker name" value=""/>
+                            </div>
                         </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="pwd" class="col-sm-2 control-label">Password</label>
+                        <div class="form-group">
+                            <label for="pwd" class="col-sm-2 control-label">Password</label>
 
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="pwd_{{this}}" name="pwd" value="x"/>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control pwd" name="pwd" value="x"/>
+                            </div>
                         </div>
-                    </div>
+                    </fieldset>
+                    <fieldset class="pools-info-{{this}}">
+                        <legend>Backup Pool</legend>
+                        <div class="form-group">
+                            <label for="pool" class="col-sm-2 control-label">Pool Address</label>
+
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control url"  name="pool"
+                                       value="stratum+tcp://"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="worker" class="col-sm-2 control-label">Worker Name</label>
+
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control worker" name="work"
+                                       placeholder="Please input the worker name" value=""/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd" class="col-sm-2 control-label">Password</label>
+
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control pwd" name="pwd" value="x"/>
+                            </div>
+                        </div>
+                    </fieldset>
                     <div class="form-group chips-group">
                         <label class="col-sm-2 control-label">Number of Chips</label>
 
@@ -195,7 +224,7 @@
         </div>   <!-- end of jumbotron -->
         {{else}}
         <div class="alert alert-danger">
-            <strong>Note：</strong>未检测到矿机
+            <strong>Note：</strong>Can not detect miner.
         </div>
         {{/if}}
     </script>
@@ -235,12 +264,31 @@
     function start_and_stop() {
         //保存并重启
         $('.save-and-start').click(function () {
+            //端口
             var port = $(this).attr('data-port');
+            //config数据
+            var pool_arr = [];
+            $('.pools-info-'+port).each(function(){
+                var pool = {"url":$(this).find('.url').val(),"user":$(this).find('.worker').val(),"pass":$(this).find('.pwd').val()};
+                pool_arr.push(pool);
+            });
+            var config_json = {
+                "pools" : pool_arr,
+                "scan-serial": "/dev/"+port,
+                "chips-count": $('#chips_' + port).val(),
+                "ltc-clk": $('#clock_' + port).val(),
+                "ltc-debug": $('#ltc_debug_' + port).is(':checked'),
+                "nocheck-golden": $('#ltc_debug_' + port).is(':checked'),
+                "api-listen": true,
+                "api-network": true,
+                "api-port": "18100" + port.substr(6,1)
+            };
+            var config_string = JSON.stringify(config_json);
             $('#notice_txt_' + port).html('<strong>Note：</strong>Starting').attr('class', 'alert alert-warning').show();
             $.ajax({
                 type: "POST",
                 url: "PHPCgminer.php?action=start",
-                data: {pool: $("#pool_" + port).val(), worker: $("#worker_" + port).val(), pwd: $('#pwd_' + port).val(), chips: $('#chips_' + port).val(), clock: $('#clock_' + port).val(), port: port, ltc_debug: $('#ltc_debug_' + port).is(':checked'), nocheck_golden: $('#nocheck_golden_' + port).is(':checked')},
+                data: {"port": port, "config_string": config_string},
                 dataType: "text",
                 success: function (data) {
                     if (data != '0') {
@@ -286,9 +334,12 @@
                     //获取json
                     var config_json = eval('(' + data + ')');
                     //填入表单数据
-                    $('#pool_'+port).val(config_json.pools[0].url);
-                    $('#worker_'+port).val(config_json.pools[0].user);
-                    $('#pwd_'+port).val(config_json.pools[0].pass);
+                    for(var i=0;i<config_json.pools.length;i++){
+                        var $pools_info = $($('.pools-info-'+port).get(i));
+                        $pools_info.find('.url').val(config_json.pools[i].url);
+                        $pools_info.find('.worker').val(config_json.pools[i].user);
+                        $pools_info.find('.pwd').val(config_json.pools[i].pass);
+                    }
                     $('#chips_'+port).val(config_json['chips-count']);
                     $('#clock_'+port).val(config_json['ltc-clk']);
                     if (config_json['ltc-debug']) $('#ltc_debug_'+port).attr('checked', 'checked');
