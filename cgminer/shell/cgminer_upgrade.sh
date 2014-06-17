@@ -12,25 +12,26 @@ cd ${SERVICE_PATH}
 # upgrade controller
 sudo git pull
 
-sudo chmod -R www-data:www-data ${SERVICE_PATH}
+sudo chown -R www-data:www-data ${SERVICE_PATH}
 sudo chmod a+x ${SERVICE_PATH}/cgminer/bin/cgminer
+sudo chmod a+x ${SERVICE_PATH}/cgminer/shell/*
 
 # restart all cgminer process
 for DEV_PORT_PATH in `ls /dev/ttyUSB*`
 do
     DEV_PORT=`basename ${DEV_PORT_PATH}`
-    CONFIG_FILE="${SERVICE_PATH}/conf/cgminer_${DEV_PORT}.conf"
+    CONFIG_FILE="${SERVICE_PATH}/cgminer/conf/cgminer_${DEV_PORT}.conf"
     if [ ! -f ${CONFIG_FILE} ]
     then
         continue
     fi
 
-    echo "" >> ${RESTART_LOG}
-    date >> ${RESTART_LOG}
-    echo "restart cgminer on ${DEV_PORT}" >> ${RESTART_LOG}
+    sudo echo "" >> ${RESTART_LOG}
+    sudo date >> ${RESTART_LOG}
+    sudo echo "restart cgminer on ${DEV_PORT}" >> ${RESTART_LOG}
     ${SERVICE_INIT} ${DEV_PORT} stop
     sleep 1
-    sudo rm ${SERVICE_INIT}/cgminer/log/cgminer_${DEV_PORT}.log
+    sudo rm ${SERVICE_PATH}/cgminer/log/cgminer_${DEV_PORT}.log
     ${SERVICE_INIT} ${DEV_PORT} start
 done
 
