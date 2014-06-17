@@ -49,9 +49,9 @@ visit the controller directly by type the ip address.
 The cgminer need root privilege to run. So we need add the www-data user
 to the sudo users. By run following command:
 ```
-sudo chmod +x /etc/sudoers
+sudo chmod +w /etc/sudoers
 sudo echo "www-data ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
-sudo chmod -x /etc/sudoers
+sudo chmod -w /etc/sudoers
 ```
 
 Then, run command
