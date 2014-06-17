@@ -13,7 +13,7 @@ cd ${SERVICE_PATH}
 sudo git pull
 
 sudo chown -R www-data:www-data ${SERVICE_PATH}
-sudo chmod -R 777 ${SERVICE_PATH}/cgminer/log
+sudo chmod 666 ${SERVICE_PATH}/cgminer/log/*
 sudo chmod a+x ${SERVICE_PATH}/cgminer/bin/cgminer
 sudo chmod a+x ${SERVICE_PATH}/cgminer/shell/*
 
@@ -35,4 +35,7 @@ do
     sudo rm ${SERVICE_PATH}/cgminer/log/cgminer_${DEV_PORT}.log
     ${SERVICE_INIT} ${DEV_PORT} start
 done
+
+sudo chown -R www-data:www-data ${SERVICE_PATH}/cgminer/log
+sudo chmod 666 ${SERVICE_PATH}/cgminer/log/*
 
