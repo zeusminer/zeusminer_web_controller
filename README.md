@@ -65,7 +65,7 @@ add the following line on the end:
 This script check the cgminer process every minute, If one of the cgminer process is down,
 it will run it again.
 
-### step 4
+### step 4: test
 Open you browser and type the ip of raspberry pi. You will see the welcome page, and it is
 really easy to setup, enjoy!
 
