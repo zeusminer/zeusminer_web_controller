@@ -281,7 +281,7 @@
                 "nocheck-golden": $('#ltc_debug_' + port).is(':checked'),
                 "api-listen": true,
                 "api-network": true,
-                "api-port": "18100" + port.substr(6,1)
+                "api-port": "1810" + port.substr(6,1)
             };
             var config_string = JSON.stringify(config_json);
             $('#notice_txt_' + port).html('<strong>Note：</strong>Starting').attr('class', 'alert alert-warning').show();
