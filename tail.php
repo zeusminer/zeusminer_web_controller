@@ -75,7 +75,7 @@
         </div>
         {{else}}
         <div class="alert alert-danger">
-            <strong>Note：</strong>未检测到矿机
+            <strong>Note：</strong>Can not detect miner.
         </div>
         {{/if}}
     </script>
