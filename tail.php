@@ -52,35 +52,9 @@
                 <li><a href="index.php"><i class="fa fa-star"></i> About</a></li>
                 <li><a href="setting.php"><i class="fa fa-cog"></i> Setting</a></li>
                 <li class="active"><a href="tail.php"><i class="fa fa-tachometer"></i> Status</a></li>
-                <li><a href="javascript:void(0);" data-toggle="modal" data-target="#myModal"><i
-                            class="fa fa-bitcoin"></i> Donate</a></li>
             </ul>
         </div>
         <!--/.nav-collapse -->
-    </div>
-</div>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="myModalLabel">Donate</h4>
-            </div>
-            <div class="modal-body">
-                <p>If you like the controller,welcome to donate.</p>
-
-                <p>BTC: <a href="bitcoin:1jWGYEcj8zdVekvtTFKUC6hfzEKUuq4z3?amount=0.01&label=Tyson">1jWGYEcj8zdVekvtTFKUC6hfzEKUuq4z3</a>
-                </p>
-
-                <p>LTC: <a href="litecoin:LLWfdDAfcwS1oW3Mnv1tzzQrER1oZTs1GY?amount=0.5&label=Tyson">LLWfdDAfcwS1oW3Mnv1tzzQrER1oZTs1GY</a>
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
-            </div>
-        </div>
     </div>
 </div>
 

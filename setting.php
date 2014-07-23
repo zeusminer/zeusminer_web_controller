@@ -52,38 +52,11 @@
                 <li><a href="index.php"><i class="fa fa-star"></i> About</a></li>
                 <li class="active"><a href="setting.php"><i class="fa fa-cog"></i> Setting</a></li>
                 <li><a href="tail.php"><i class="fa fa-tachometer"></i> Status</a></li>
-                <li><a href="javascript:void(0);" data-toggle="modal" data-target="#myModal"><i
-                            class="fa fa-bitcoin"></i> Donate</a></li>
             </ul>
         </div>
         <!--/.nav-collapse -->
     </div>
 </div>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="myModalLabel">Donate</h4>
-            </div>
-            <div class="modal-body">
-                <p>If you like the controller,welcome to donate.</p>
-
-                <p>BTC: <a href="bitcoin:1jWGYEcj8zdVekvtTFKUC6hfzEKUuq4z3?amount=0.01&label=Tyson">1jWGYEcj8zdVekvtTFKUC6hfzEKUuq4z3</a>
-                </p>
-
-                <p>LTC: <a href="litecoin:LLWfdDAfcwS1oW3Mnv1tzzQrER1oZTs1GY?amount=0.5&label=Tyson">LLWfdDAfcwS1oW3Mnv1tzzQrER1oZTs1GY</a>
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
-            </div>
-        </div>
-    </div>
-</div>
-
 
 <div class="container theme-showcase" role="main" id="setting_container">
     <script type="text/x-handlebars-template" id="setting_form_tpl">
@@ -165,13 +138,13 @@
                                 <input type="radio" name="miner_type" value="6" checked="checked">Blizzard
                             </label>
                             <label class="radio-inline">
-                                <input type="radio" name="miner_type" value="48">Cyclone
+                                <input type="radio" name="miner_type" value="64">Hurricane
                             </label>
                             <label class="radio-inline">
-                                <input type="radio" name="miner_type" value="96">Thunder
+                                <input type="radio" name="miner_type" value="128">Thunder
                             </label>
                             <label class="radio-inline">
-                                <input type="radio" name="miner_type" value="192">Lightning
+                                <input type="radio" name="miner_type" value="256">Lightning
                             </label>
                             <input type="text" class="form-control chips-count" id="chips_{{this}}" name="chips"
                                    value="6"/>
@@ -188,8 +161,7 @@
                         </div>
                     </div>
                     <div class="alert alert-info col-sm-offset-2 col-sm-10">
-                        <strong>Note：</strong>Working frequency should be set equal to or below 328. Damage caused by
-                        overclocking may void your warranty.
+                        <strong>Note：</strong>Working frequency should be set properly. Damage caused by overclocking may void your warranty.
                     </div>
 
                     <div class="form-group">
@@ -275,13 +247,19 @@
             var config_json = {
                 "pools" : pool_arr,
                 "scan-serial": "/dev/"+port,
+                "scan-time": "30",
                 "chips-count": $('#chips_' + port).val(),
                 "ltc-clk": $('#clock_' + port).val(),
                 "ltc-debug": $('#ltc_debug_' + port).is(':checked'),
                 "nocheck-golden": $('#ltc_debug_' + port).is(':checked'),
                 "api-listen": true,
                 "api-network": true,
-                "api-port": "1810" + port.substr(6,1)
+                "api-port": "1810" + port.substr(6,1),
+                "api-description": "cgminer 3.1.1 zeus",
+                "expiry": "60",
+                "log": "5",
+                "queue": "4",
+                "scrypt": true
             };
             var config_string = JSON.stringify(config_json);
             $('#notice_txt_' + port).html('<strong>Note：</strong>Starting').attr('class', 'alert alert-warning').show();
