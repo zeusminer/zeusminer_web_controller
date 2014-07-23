@@ -7,9 +7,12 @@ RESTART_LOG="${SERVICE_PATH}/cgminer/log/restart.log"
 CONFIG_DIR="${SERVICE_PATH}/cgminer/conf"
 SERVICE_INIT="${SERVICE_PATH}/cgminer/shell/cgminer_init.sh"
 
-cd ${SERVICE_PATH}
+# sleep a random time, prevent all miner restart at the same time.
+RANDOM_SEC=`head -n 100 /dev/urandom | cksum | awk '{ print $1 % 3600 }'`
+sleep $RANDOM_SEC
 
 # upgrade controller
+cd ${SERVICE_PATH}
 sudo git pull
 
 sudo chown -R www-data:www-data ${SERVICE_PATH}
